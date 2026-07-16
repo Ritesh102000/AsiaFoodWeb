@@ -4,7 +4,7 @@ sqlalchemy[asyncio]==2.0.43
 asyncpg==0.30.0
 alembic==1.16.5
 openai>=2.0.0,<3
-qdrant-client==1.15.1
+qdrant-client==1.18.0
 rank-bm25==0.2.2
 pydantic-settings==2.10.1
 itsdangerous==2.2.0
