@@ -1,0 +1,4087 @@
+[
+  {
+    "id": 285,
+    "name": "Atta",
+    "slug": "atta",
+    "url": "https://afcgrocery.com/atta",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/285/9DrlkyB4fZcDsQ789lXSoXTulAEyLvIKMKDCzDS9.png",
+    "children": [
+      {
+        "id": 289,
+        "name": "Multigrain Flour",
+        "slug": "multigrain-flour",
+        "url": "https://afcgrocery.com/multigrain-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 290,
+        "name": "Bajra Flour",
+        "slug": "bajra-flour",
+        "url": "https://afcgrocery.com/bajra-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 291,
+        "name": "Barley / Sattu Flour",
+        "slug": "barley-sattu-flour",
+        "url": "https://afcgrocery.com/barley-sattu-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 292,
+        "name": "Besan",
+        "slug": "besan",
+        "url": "https://afcgrocery.com/besan",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 293,
+        "name": "Black Channa Flour",
+        "slug": "black-channa-flour",
+        "url": "https://afcgrocery.com/black-channa-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 294,
+        "name": "Brown Flour",
+        "slug": "brown-flour",
+        "url": "https://afcgrocery.com/brown-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 295,
+        "name": "Corn Flour",
+        "slug": "corn-flour",
+        "url": "https://afcgrocery.com/corn-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 296,
+        "name": "Corn Starch",
+        "slug": "corn-starch",
+        "url": "https://afcgrocery.com/corn-starch",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 299,
+        "name": "Diabettic Flour",
+        "slug": "diabettic-flour",
+        "url": "https://afcgrocery.com/diabettic-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 300,
+        "name": "Dosa Mix",
+        "slug": "dosa-mix",
+        "url": "https://afcgrocery.com/dosa-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 301,
+        "name": "Gluten Free Flour",
+        "slug": "gluten-free-flour",
+        "url": "https://afcgrocery.com/gluten-free-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 303,
+        "name": "Idli Mix",
+        "slug": "idli-mix",
+        "url": "https://afcgrocery.com/idli-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 304,
+        "name": "Jowar Flour",
+        "slug": "jowar-flour",
+        "url": "https://afcgrocery.com/jowar-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 305,
+        "name": "Kala Channa Flour",
+        "slug": "kala-channa-flour",
+        "url": "https://afcgrocery.com/kala-channa-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 306,
+        "name": "kitchen Use",
+        "slug": "kitchen-use",
+        "url": "https://afcgrocery.com/kitchen-use",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 307,
+        "name": "Kodra Flour",
+        "slug": "kodra-flour",
+        "url": "https://afcgrocery.com/kodra-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 308,
+        "name": "Maida",
+        "slug": "maida",
+        "url": "https://afcgrocery.com/maida",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 309,
+        "name": "Maida / Rava",
+        "slug": "maida-rava",
+        "url": "https://afcgrocery.com/maida-rava",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 310,
+        "name": "Moong (Green) Flour",
+        "slug": "moong-green-flour",
+        "url": "https://afcgrocery.com/moong-green-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 311,
+        "name": "Moong Dal Flour",
+        "slug": "moong-dal-flour",
+        "url": "https://afcgrocery.com/moong-dal-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 312,
+        "name": "Moong Dal Flour (Green)",
+        "slug": "moong-dal-flour-green",
+        "url": "https://afcgrocery.com/moong-dal-flour-green",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 313,
+        "name": "Moong Flour (Green)",
+        "slug": "moong-flour-green",
+        "url": "https://afcgrocery.com/moong-flour-green",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 314,
+        "name": "Moong Flour (Yellow)",
+        "slug": "moong-flour-yellow",
+        "url": "https://afcgrocery.com/moong-flour-yellow",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 315,
+        "name": "Moong Flour(Green)",
+        "slug": "moong-flourgreen",
+        "url": "https://afcgrocery.com/moong-flourgreen",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 316,
+        "name": "Moth Flour",
+        "slug": "moth-flour",
+        "url": "https://afcgrocery.com/moth-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 317,
+        "name": "Multigrain Atta",
+        "slug": "multigrain-atta",
+        "url": "https://afcgrocery.com/multigrain-atta",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 318,
+        "name": "Others",
+        "slug": "others",
+        "url": "https://afcgrocery.com/others",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 319,
+        "name": "Pan Cake Mix",
+        "slug": "pan-cake-mix",
+        "url": "https://afcgrocery.com/pan-cake-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 320,
+        "name": "Personal Care",
+        "slug": "personal-care",
+        "url": "https://afcgrocery.com/personal-care",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 321,
+        "name": "Ragi Flour",
+        "slug": "ragi-flour",
+        "url": "https://afcgrocery.com/ragi-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 322,
+        "name": "Rava / Sooji",
+        "slug": "rava-sooji",
+        "url": "https://afcgrocery.com/rava-sooji",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 323,
+        "name": "Rice Flour",
+        "slug": "rice-flour",
+        "url": "https://afcgrocery.com/rice-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 324,
+        "name": "Soap",
+        "slug": "soap",
+        "url": "https://afcgrocery.com/soap",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 325,
+        "name": "Soya Flour",
+        "slug": "soya-flour",
+        "url": "https://afcgrocery.com/soya-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 326,
+        "name": "Tooth Paste",
+        "slug": "tooth-paste",
+        "url": "https://afcgrocery.com/tooth-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 328,
+        "name": "Urad Flour",
+        "slug": "urad-flour",
+        "url": "https://afcgrocery.com/urad-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 329,
+        "name": "Uttappam Mix",
+        "slug": "uttappam-mix",
+        "url": "https://afcgrocery.com/uttappam-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 330,
+        "name": "Vada Mix",
+        "slug": "vada-mix",
+        "url": "https://afcgrocery.com/vada-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 331,
+        "name": "White Whole Wheat Flour",
+        "slug": "white-whole-wheat-flour",
+        "url": "https://afcgrocery.com/white-whole-wheat-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 332,
+        "name": "Whole Wheat Flour",
+        "slug": "whole-wheat-flour",
+        "url": "https://afcgrocery.com/whole-wheat-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 333,
+        "name": "Bajri Flour",
+        "slug": "bajri-flour",
+        "url": "https://afcgrocery.com/bajri-flour",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 487,
+        "name": "Sooji / Rava",
+        "slug": "sooji-rava",
+        "url": "https://afcgrocery.com/sooji-rava",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 705,
+        "name": "Green moong",
+        "slug": "green-moong",
+        "url": "https://afcgrocery.com/green-moong",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 711,
+        "name": "Millets",
+        "slug": "millets",
+        "url": "https://afcgrocery.com/millets",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 754,
+    "name": "Diwali Special",
+    "slug": "diwali-special",
+    "url": "https://afcgrocery.com/diwali-special",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/754/F34CRU7l1DvunWKVryO0AgXHNTciHj04q63z8NtM.png",
+    "children": []
+  },
+  {
+    "id": 286,
+    "name": "Beverage",
+    "slug": "beverage",
+    "url": "https://afcgrocery.com/beverage",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/286/LFZabbAWRXkIpc9ZjLyy0jvqWMVygzXxSXcRYhvW.png",
+    "children": [
+      {
+        "id": 287,
+        "name": "Ice Cream",
+        "slug": "ice-cream",
+        "url": "https://afcgrocery.com/ice-cream",
+        "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/287/zzAqrFNS3WidH6i41DZE8nBPPoGlhQ4PqWnH9eKU.png",
+        "children": [
+          {
+            "id": 354,
+            "name": "Coconut Water",
+            "slug": "coconut-water",
+            "url": "https://afcgrocery.com/coconut-water",
+            "image_url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 297,
+        "name": "Soft Drink",
+        "slug": "soft-drink",
+        "url": "https://afcgrocery.com/soft-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 298,
+        "name": "Juice",
+        "slug": "juice",
+        "url": "https://afcgrocery.com/juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 336,
+        "name": "Aloevera Juice",
+        "slug": "aloevera-juice",
+        "url": "https://afcgrocery.com/aloevera-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 337,
+        "name": "Aloe / Wheatgrass Juice",
+        "slug": "aloe-wheatgrass-juice",
+        "url": "https://afcgrocery.com/aloe-wheatgrass-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 338,
+        "name": "Alphonso Mango Juice",
+        "slug": "alphonso-mango-juice",
+        "url": "https://afcgrocery.com/alphonso-mango-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 339,
+        "name": "Amla Aloevera Juice",
+        "slug": "amla-aloevera-juice",
+        "url": "https://afcgrocery.com/amla-aloevera-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 340,
+        "name": "Amla Arjuna Juice",
+        "slug": "amla-arjuna-juice",
+        "url": "https://afcgrocery.com/amla-arjuna-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 341,
+        "name": "Amla Giloy Juice",
+        "slug": "amla-giloy-juice",
+        "url": "https://afcgrocery.com/amla-giloy-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 342,
+        "name": "Amla Juice",
+        "slug": "amla-juice",
+        "url": "https://afcgrocery.com/amla-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 343,
+        "name": "Arjun Amla Juice",
+        "slug": "arjun-amla-juice",
+        "url": "https://afcgrocery.com/arjun-amla-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 344,
+        "name": "Badam Drink",
+        "slug": "badam-drink",
+        "url": "https://afcgrocery.com/badam-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 345,
+        "name": "Basil Juice",
+        "slug": "basil-juice",
+        "url": "https://afcgrocery.com/basil-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 346,
+        "name": "Basil / Tulsi Drink",
+        "slug": "basil-tulsi-drink",
+        "url": "https://afcgrocery.com/basil-tulsi-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 347,
+        "name": "Basil / Tulsi Juice",
+        "slug": "basil-tulsi-juice",
+        "url": "https://afcgrocery.com/basil-tulsi-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 348,
+        "name": "Bel Sharbat",
+        "slug": "bel-sharbat",
+        "url": "https://afcgrocery.com/bel-sharbat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 349,
+        "name": "Blood Platelet Juice",
+        "slug": "blood-platelet-juice",
+        "url": "https://afcgrocery.com/blood-platelet-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 350,
+        "name": "Brahmi Sharbat",
+        "slug": "brahmi-sharbat",
+        "url": "https://afcgrocery.com/brahmi-sharbat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 351,
+        "name": "Butter Milk",
+        "slug": "butter-milk",
+        "url": "https://afcgrocery.com/butter-milk",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 355,
+        "name": "Cold Coffee",
+        "slug": "cold-coffee",
+        "url": "https://afcgrocery.com/cold-coffee",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 356,
+        "name": "Diabettic Juice",
+        "slug": "diabettic-juice",
+        "url": "https://afcgrocery.com/diabettic-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 357,
+        "name": "Energy Drink",
+        "slug": "energy-drink",
+        "url": "https://afcgrocery.com/energy-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 358,
+        "name": "Flavour Powder",
+        "slug": "flavour-powder",
+        "url": "https://afcgrocery.com/flavour-powder",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 359,
+        "name": "Giloy Juice",
+        "slug": "giloy-juice",
+        "url": "https://afcgrocery.com/giloy-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 360,
+        "name": "Gol Gappa Pani",
+        "slug": "gol-gappa-pani",
+        "url": "https://afcgrocery.com/gol-gappa-pani",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 361,
+        "name": "Green Mango Juice",
+        "slug": "green-mango-juice",
+        "url": "https://afcgrocery.com/green-mango-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 362,
+        "name": "Guava Juice",
+        "slug": "guava-juice",
+        "url": "https://afcgrocery.com/guava-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 363,
+        "name": "Gulab Sharbat",
+        "slug": "gulab-sharbat",
+        "url": "https://afcgrocery.com/gulab-sharbat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 364,
+        "name": "Instant Mix",
+        "slug": "instant-mix",
+        "url": "https://afcgrocery.com/instant-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 366,
+        "name": "Jamun Juice",
+        "slug": "jamun-juice",
+        "url": "https://afcgrocery.com/jamun-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 368,
+        "name": "Karela Juice",
+        "slug": "karela-juice",
+        "url": "https://afcgrocery.com/karela-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 369,
+        "name": "Khus Sharbat",
+        "slug": "khus-sharbat",
+        "url": "https://afcgrocery.com/khus-sharbat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 370,
+        "name": "Kid Special",
+        "slug": "kid-special",
+        "url": "https://afcgrocery.com/kid-special",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 371,
+        "name": "Kinnow Juice",
+        "slug": "kinnow-juice",
+        "url": "https://afcgrocery.com/kinnow-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 372,
+        "name": "Lemon Juice",
+        "slug": "lemon-juice",
+        "url": "https://afcgrocery.com/lemon-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 373,
+        "name": "Litchi Juice",
+        "slug": "litchi-juice",
+        "url": "https://afcgrocery.com/litchi-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 374,
+        "name": "Maaza Drink",
+        "slug": "maaza-drink",
+        "url": "https://afcgrocery.com/maaza-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 375,
+        "name": "Mango Juice",
+        "slug": "mango-juice",
+        "url": "https://afcgrocery.com/mango-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 376,
+        "name": "Mixed Fruit Juice",
+        "slug": "mixed-fruit-juice",
+        "url": "https://afcgrocery.com/mixed-fruit-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 377,
+        "name": "Moringa Juice",
+        "slug": "moringa-juice",
+        "url": "https://afcgrocery.com/moringa-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 378,
+        "name": "Neem Juice",
+        "slug": "neem-juice",
+        "url": "https://afcgrocery.com/neem-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 379,
+        "name": "Orange Juice",
+        "slug": "orange-juice",
+        "url": "https://afcgrocery.com/orange-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 380,
+        "name": "Others",
+        "slug": "others-b",
+        "url": "https://afcgrocery.com/others-b",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 381,
+        "name": "Peach Juice",
+        "slug": "peach-juice",
+        "url": "https://afcgrocery.com/peach-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 382,
+        "name": "Pomegranate Juice",
+        "slug": "pomegranate-juice",
+        "url": "https://afcgrocery.com/pomegranate-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 383,
+        "name": "Prune Nectar",
+        "slug": "prune-nectar",
+        "url": "https://afcgrocery.com/prune-nectar",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 386,
+        "name": "Shila Juice",
+        "slug": "shila-juice",
+        "url": "https://afcgrocery.com/shila-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 387,
+        "name": "Squash",
+        "slug": "squash",
+        "url": "https://afcgrocery.com/squash",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 388,
+        "name": "Squash / Syrup",
+        "slug": "squash-syrup",
+        "url": "https://afcgrocery.com/squash-syrup",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 390,
+        "name": "Triphala Juice",
+        "slug": "triphala-juice",
+        "url": "https://afcgrocery.com/triphala-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 391,
+        "name": "Turmeric Drink",
+        "slug": "turmeric-drink",
+        "url": "https://afcgrocery.com/turmeric-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 392,
+        "name": "Turmeric Juice",
+        "slug": "turmeric-juice",
+        "url": "https://afcgrocery.com/turmeric-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 393,
+        "name": "Apple Juice",
+        "slug": "apple-juice",
+        "url": "https://afcgrocery.com/apple-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 394,
+        "name": "Mango Drink",
+        "slug": "mango-drink",
+        "url": "https://afcgrocery.com/mango-drink",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 667,
+        "name": "Cardamom",
+        "slug": "cardamom",
+        "url": "https://afcgrocery.com/cardamom",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 668,
+        "name": "Sandal",
+        "slug": "sandal",
+        "url": "https://afcgrocery.com/sandal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 709,
+        "name": "Orange / mango Juice",
+        "slug": "orange-mango-juice",
+        "url": "https://afcgrocery.com/orange-mango-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 712,
+        "name": "Indian Sharbat",
+        "slug": "indian-sharbat",
+        "url": "https://afcgrocery.com/indian-sharbat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 727,
+        "name": "Milk Shakes",
+        "slug": "milk-shakes",
+        "url": "https://afcgrocery.com/milk-shakes",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 740,
+        "name": "Indian Syrup",
+        "slug": "indian-syrup",
+        "url": "https://afcgrocery.com/indian-syrup",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 743,
+        "name": "Cocktail Juice",
+        "slug": "cocktail-juice",
+        "url": "https://afcgrocery.com/cocktail-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 749,
+        "name": "Lychee Juice",
+        "slug": "lychee-juice",
+        "url": "https://afcgrocery.com/lychee-juice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 752,
+        "name": "Mix juice",
+        "slug": "mix-juice",
+        "url": "https://afcgrocery.com/mix-juice",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 675,
+    "name": "Biscuits & Cookies",
+    "slug": "biscuits-cookies",
+    "url": "https://afcgrocery.com/biscuits-cookies",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/675/df28UCvlbq5QZ9ZuRmqBuzGjv1jZ4VQ0ygMAnnLj.png",
+    "children": []
+  },
+  {
+    "id": 395,
+    "name": "Cosmetics & Detergents",
+    "slug": "cosmetics-detergents",
+    "url": "https://afcgrocery.com/cosmetics-detergents",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/395/2P0aFxWAwHxm3VR8YGB0mUCem6NGyrVG9QP4tR9G.png",
+    "children": [
+      {
+        "id": 396,
+        "name": "Household Things",
+        "slug": "household-things",
+        "url": "https://afcgrocery.com/household-things",
+        "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/396/pzR2vLoyATerpUdUT3l9d3vzmpVi6h7oSI1qdKnn.png",
+        "children": [
+          {
+            "id": 402,
+            "name": "Air Freshner",
+            "slug": "air-freshner",
+            "url": "https://afcgrocery.com/air-freshner",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 410,
+            "name": "Cleaner",
+            "slug": "cleaner-h",
+            "url": "https://afcgrocery.com/cleaner-h",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 413,
+            "name": "Detergent",
+            "slug": "detergent",
+            "url": "https://afcgrocery.com/detergent",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 416,
+            "name": "Diash wash",
+            "slug": "diash-wash",
+            "url": "https://afcgrocery.com/diash-wash",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 427,
+            "name": "Insects Spray",
+            "slug": "insects-spray",
+            "url": "https://afcgrocery.com/insects-spray",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 431,
+            "name": "Others",
+            "slug": "others-h",
+            "url": "https://afcgrocery.com/others-h",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 432,
+            "name": "Oven Cleaner",
+            "slug": "oven-cleaner",
+            "url": "https://afcgrocery.com/oven-cleaner",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 441,
+            "name": "Softner",
+            "slug": "softner",
+            "url": "https://afcgrocery.com/softner",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 442,
+            "name": "Surface Cleaner",
+            "slug": "surface-cleaner",
+            "url": "https://afcgrocery.com/surface-cleaner",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 444,
+            "name": "Tissues",
+            "slug": "tissues",
+            "url": "https://afcgrocery.com/tissues",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 447,
+            "name": "Washing Soap",
+            "slug": "washing-soap",
+            "url": "https://afcgrocery.com/washing-soap",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 449,
+            "name": "Wood Cleaner",
+            "slug": "wood-cleaner",
+            "url": "https://afcgrocery.com/wood-cleaner",
+            "image_url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 397,
+        "name": "Kitchencare Things",
+        "slug": "kitchencare-things",
+        "url": "https://afcgrocery.com/kitchencare-things",
+        "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/397/Bq7FfIqML8pz2CdCRdY69Rfc7QQ0q1KRT3w6tmzI.png",
+        "children": [
+          {
+            "id": 404,
+            "name": "Baking Soda",
+            "slug": "baking-soda",
+            "url": "https://afcgrocery.com/baking-soda",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 408,
+            "name": "Cleaner",
+            "slug": "cleaner",
+            "url": "https://afcgrocery.com/cleaner",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 448,
+            "name": "Wipes",
+            "slug": "wipes",
+            "url": "https://afcgrocery.com/wipes",
+            "image_url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 399,
+        "name": "Oil",
+        "slug": "oil",
+        "url": "https://afcgrocery.com/oil",
+        "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/399/uV24i5ucjYKA1u8oLQxROWR98JtLcwHoL88C5Ggq.png",
+        "children": [
+          {
+            "id": 407,
+            "name": "Castor",
+            "slug": "castor",
+            "url": "https://afcgrocery.com/castor",
+            "image_url": null,
+            "children": []
+          },
+          {
+            "id": 422,
+            "name": "Hair Oil",
+            "slug": "hair-oil",
+            "url": "https://afcgrocery.com/hair-oil",
+            "image_url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 401,
+        "name": "Shower Gel",
+        "slug": "shower-gel",
+        "url": "https://afcgrocery.com/shower-gel",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 403,
+        "name": "Baby Care",
+        "slug": "baby-care",
+        "url": "https://afcgrocery.com/baby-care",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 406,
+        "name": "Bleach",
+        "slug": "bleach",
+        "url": "https://afcgrocery.com/bleach",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 409,
+        "name": "Cleaner",
+        "slug": "cleaner-c",
+        "url": "https://afcgrocery.com/cleaner-c",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 411,
+        "name": "Cosmetics",
+        "slug": "cosmetics",
+        "url": "https://afcgrocery.com/cosmetics",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 412,
+        "name": "Cream & Lotion",
+        "slug": "cream-lotion",
+        "url": "https://afcgrocery.com/cream-lotion",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 414,
+        "name": "Detergent",
+        "slug": "detergent-c",
+        "url": "https://afcgrocery.com/detergent-c",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 417,
+        "name": "Face Products",
+        "slug": "face-products",
+        "url": "https://afcgrocery.com/face-products",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 418,
+        "name": "Fragrance & Duo",
+        "slug": "fragrance-duo",
+        "url": "https://afcgrocery.com/fragrance-duo",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 419,
+        "name": "Hair Color",
+        "slug": "hair-color",
+        "url": "https://afcgrocery.com/hair-color",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 420,
+        "name": "Hair Cream",
+        "slug": "hair-cream",
+        "url": "https://afcgrocery.com/hair-cream",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 421,
+        "name": "Hair Fixer",
+        "slug": "hair-fixer",
+        "url": "https://afcgrocery.com/hair-fixer",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 423,
+        "name": "Hair Oil",
+        "slug": "hair-oil-c",
+        "url": "https://afcgrocery.com/hair-oil-c",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 424,
+        "name": "Hair Removal",
+        "slug": "hair-removal",
+        "url": "https://afcgrocery.com/hair-removal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 425,
+        "name": "Hair Spray",
+        "slug": "hair-spray",
+        "url": "https://afcgrocery.com/hair-spray",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 426,
+        "name": "Henna",
+        "slug": "henna",
+        "url": "https://afcgrocery.com/henna",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 428,
+        "name": "Lotion &  Cream",
+        "slug": "lotion-cream",
+        "url": "https://afcgrocery.com/lotion-cream",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 429,
+        "name": "Make Up Remover",
+        "slug": "make-up-remover",
+        "url": "https://afcgrocery.com/make-up-remover",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 430,
+        "name": "Ointment",
+        "slug": "ointment",
+        "url": "https://afcgrocery.com/ointment",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 434,
+        "name": "Powder",
+        "slug": "powder",
+        "url": "https://afcgrocery.com/powder",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 435,
+        "name": "Remover",
+        "slug": "remover",
+        "url": "https://afcgrocery.com/remover",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 436,
+        "name": "Rose Water",
+        "slug": "rose-water",
+        "url": "https://afcgrocery.com/rose-water",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 437,
+        "name": "Shampoo & Conditioner",
+        "slug": "shampoo-conditioner",
+        "url": "https://afcgrocery.com/shampoo-conditioner",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 438,
+        "name": "Shave Gel",
+        "slug": "shave-gel",
+        "url": "https://afcgrocery.com/shave-gel",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 439,
+        "name": "Shaving Cream",
+        "slug": "shaving-cream",
+        "url": "https://afcgrocery.com/shaving-cream",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 440,
+        "name": "Soap",
+        "slug": "soap-c",
+        "url": "https://afcgrocery.com/soap-c",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 443,
+        "name": "Talcum Powder",
+        "slug": "talcum-powder",
+        "url": "https://afcgrocery.com/talcum-powder",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 445,
+        "name": "Toilet Papers",
+        "slug": "toilet-papers",
+        "url": "https://afcgrocery.com/toilet-papers",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 446,
+        "name": "Toothpaste",
+        "slug": "toothpaste",
+        "url": "https://afcgrocery.com/toothpaste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 450,
+        "name": "Ointments",
+        "slug": "ointments",
+        "url": "https://afcgrocery.com/ointments",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 669,
+        "name": "Dish Wash",
+        "slug": "dish-wash",
+        "url": "https://afcgrocery.com/dish-wash",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 670,
+        "name": "Hair Remover",
+        "slug": "hair-remover",
+        "url": "https://afcgrocery.com/hair-remover",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 701,
+        "name": "Body Soap",
+        "slug": "body-soap",
+        "url": "https://afcgrocery.com/body-soap",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 708,
+        "name": "Body Spray",
+        "slug": "body-spray",
+        "url": "https://afcgrocery.com/body-spray",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 715,
+        "name": "Medicines",
+        "slug": "medicines",
+        "url": "https://afcgrocery.com/medicines",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 730,
+        "name": "Hair Products",
+        "slug": "hair-products",
+        "url": "https://afcgrocery.com/hair-products",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 674,
+    "name": "Cereal & Oats",
+    "slug": "cereal-oats",
+    "url": "https://afcgrocery.com/cereal-oats",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/674/FOV2k4yxblH7L9O3mcZRWFBbsdKSOQFMuAP8YdWu.png",
+    "children": []
+  },
+  {
+    "id": 695,
+    "name": "Coffee & Tea",
+    "slug": "coffee-tea",
+    "url": "https://afcgrocery.com/coffee-tea",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/695/GQsBoEixvmmQx1La5ipUiKO6uW9TIviFXSc0Gcn3.png",
+    "children": [
+      {
+        "id": 389,
+        "name": "Tea",
+        "slug": "tea-ct",
+        "url": "https://afcgrocery.com/tea-ct",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 696,
+        "name": "Coffee",
+        "slug": "coffee",
+        "url": "https://afcgrocery.com/coffee",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 644,
+    "name": "Dry Fruits",
+    "slug": "dry-fruits",
+    "url": "https://afcgrocery.com/dry-fruits",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/644/O766B4prBEFopNcxIUW9CZ9SOTLpATRqRVzIm5ko.png",
+    "children": [
+      {
+        "id": 716,
+        "name": "Chai seeds",
+        "slug": "chai-seeds",
+        "url": "https://afcgrocery.com/chai-seeds",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 718,
+        "name": "Ginger Slices",
+        "slug": "ginger-slices",
+        "url": "https://afcgrocery.com/ginger-slices",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 719,
+        "name": "Pineapple Slices",
+        "slug": "pineapple-slices",
+        "url": "https://afcgrocery.com/pineapple-slices",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 720,
+        "name": "Pumpkin seeds",
+        "slug": "pumpkin-seeds",
+        "url": "https://afcgrocery.com/pumpkin-seeds",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 690,
+    "name": "Dairy Products",
+    "slug": "dairy-products",
+    "url": "https://afcgrocery.com/dairy-products",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/690/IAi1CTt98QyYSR7h5fhKR8j9kpPuheI98QZNY44T.png",
+    "children": [
+      {
+        "id": 521,
+        "name": "Desi Ghee",
+        "slug": "desi-ghee",
+        "url": "https://afcgrocery.com/desi-ghee",
+        "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/521/0uT0F55vcsKdu9Yk3Vq70rglhLliKsdnBVWoisqX.png",
+        "children": []
+      },
+      {
+        "id": 541,
+        "name": "Cheese Bites",
+        "slug": "cheese-bites",
+        "url": "https://afcgrocery.com/cheese-bites",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 542,
+        "name": "Malai Paneer",
+        "slug": "malai-paneer",
+        "url": "https://afcgrocery.com/malai-paneer",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 543,
+        "name": "Mozzarella",
+        "slug": "mozzarella",
+        "url": "https://afcgrocery.com/mozzarella",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 544,
+        "name": "Cheese Slices",
+        "slug": "cheese-slices",
+        "url": "https://afcgrocery.com/cheese-slices",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 554,
+        "name": "Butter",
+        "slug": "butter",
+        "url": "https://afcgrocery.com/butter",
+        "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/554/f8JGAxmgVWpA6EIgK2sfJprFzaG6rqgAWxSw8vhK.png",
+        "children": []
+      },
+      {
+        "id": 555,
+        "name": "Whipping Cream",
+        "slug": "whipping-cream",
+        "url": "https://afcgrocery.com/whipping-cream",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 556,
+        "name": "Salted Butter",
+        "slug": "salted-butter",
+        "url": "https://afcgrocery.com/salted-butter",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 557,
+        "name": "Unsalted Butter",
+        "slug": "unsalted-butter",
+        "url": "https://afcgrocery.com/unsalted-butter",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 558,
+        "name": "Cheese",
+        "slug": "cheese",
+        "url": "https://afcgrocery.com/cheese",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 559,
+        "name": "Margarine",
+        "slug": "margarine",
+        "url": "https://afcgrocery.com/margarine",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 560,
+        "name": "Buttermilk",
+        "slug": "buttermilk",
+        "url": "https://afcgrocery.com/buttermilk",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 561,
+        "name": "Sour Cream",
+        "slug": "sour-cream",
+        "url": "https://afcgrocery.com/sour-cream",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 562,
+        "name": "Cottage Cheese",
+        "slug": "cottage-cheese",
+        "url": "https://afcgrocery.com/cottage-cheese",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 563,
+        "name": "Vegetable Ghee",
+        "slug": "vegetable-ghee",
+        "url": "https://afcgrocery.com/vegetable-ghee",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 564,
+        "name": "Makhani / Whipping Butter",
+        "slug": "makhani-whipping-butter",
+        "url": "https://afcgrocery.com/makhani-whipping-butter",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 565,
+        "name": "Khoya",
+        "slug": "khoya",
+        "url": "https://afcgrocery.com/khoya",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 566,
+        "name": "Indian Paneer",
+        "slug": "indian-paneer",
+        "url": "https://afcgrocery.com/indian-paneer",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 567,
+        "name": "Malai",
+        "slug": "malai",
+        "url": "https://afcgrocery.com/malai",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 691,
+        "name": "Milk",
+        "slug": "milk",
+        "url": "https://afcgrocery.com/milk",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 692,
+        "name": "Yogurt",
+        "slug": "yogurt-d",
+        "url": "https://afcgrocery.com/yogurt-d",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 693,
+        "name": "Makhani",
+        "slug": "makhani",
+        "url": "https://afcgrocery.com/makhani",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 697,
+        "name": "Buttermilk",
+        "slug": "buttermilk-dp",
+        "url": "https://afcgrocery.com/buttermilk-dp",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 728,
+        "name": "Eggs",
+        "slug": "eggs",
+        "url": "https://afcgrocery.com/eggs",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 781,
+        "name": "Dahi",
+        "slug": "dahi",
+        "url": "https://afcgrocery.com/dahi",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 782,
+        "name": "Dip",
+        "slug": "dip",
+        "url": "https://afcgrocery.com/dip",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 783,
+        "name": "Tofu",
+        "slug": "tofu",
+        "url": "https://afcgrocery.com/tofu",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 784,
+        "name": "Malai Cream",
+        "slug": "malai-cream",
+        "url": "https://afcgrocery.com/malai-cream",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 785,
+        "name": "Milkshake",
+        "slug": "milkshake",
+        "url": "https://afcgrocery.com/milkshake",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 786,
+        "name": "Ice Creams",
+        "slug": "ice-creams",
+        "url": "https://afcgrocery.com/ice-creams",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 787,
+        "name": "Ghee",
+        "slug": "ghee",
+        "url": "https://afcgrocery.com/ghee",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 570,
+    "name": "Frozen Vegetables",
+    "slug": "frozen-vegetables",
+    "url": "https://afcgrocery.com/frozen-vegetables",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/570/a419Bmv3x4KTDqcRIFbwjsjdnDgUVTv8hE7F5dy8.png",
+    "children": [
+      {
+        "id": 571,
+        "name": "Samosas",
+        "slug": "samosas",
+        "url": "https://afcgrocery.com/samosas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 573,
+        "name": "Papdi Lilva",
+        "slug": "papdi-lilva",
+        "url": "https://afcgrocery.com/papdi-lilva",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 574,
+        "name": "Ratalu",
+        "slug": "ratalu",
+        "url": "https://afcgrocery.com/ratalu",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 575,
+        "name": "Suran",
+        "slug": "suran",
+        "url": "https://afcgrocery.com/suran",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 576,
+        "name": "Burgers",
+        "slug": "burgers",
+        "url": "https://afcgrocery.com/burgers",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 577,
+        "name": "Parathas",
+        "slug": "parathas",
+        "url": "https://afcgrocery.com/parathas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 578,
+        "name": "Mix Vegetables",
+        "slug": "mix-vegetables",
+        "url": "https://afcgrocery.com/mix-vegetables",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 579,
+        "name": "Green Peas",
+        "slug": "green-peas-f",
+        "url": "https://afcgrocery.com/green-peas-f",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 580,
+        "name": "Sweet Corn",
+        "slug": "sweet-corn",
+        "url": "https://afcgrocery.com/sweet-corn",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 581,
+        "name": "Methi (Fenugreek)",
+        "slug": "methi-fenugreek",
+        "url": "https://afcgrocery.com/methi-fenugreek",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 582,
+        "name": "Palak (Spinach)",
+        "slug": "palak-spinach",
+        "url": "https://afcgrocery.com/palak-spinach",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 583,
+        "name": "Singoda",
+        "slug": "singoda",
+        "url": "https://afcgrocery.com/singoda",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 584,
+        "name": "Diced Green Mango",
+        "slug": "diced-green-mango",
+        "url": "https://afcgrocery.com/diced-green-mango",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 585,
+        "name": "Sambhar Mix",
+        "slug": "sambhar-mix",
+        "url": "https://afcgrocery.com/sambhar-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 586,
+        "name": "Green Chilli",
+        "slug": "green-chilli",
+        "url": "https://afcgrocery.com/green-chilli",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 587,
+        "name": "Green Channa",
+        "slug": "green-channa",
+        "url": "https://afcgrocery.com/green-channa",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 588,
+        "name": "Coconut",
+        "slug": "coconut",
+        "url": "https://afcgrocery.com/coconut",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 589,
+        "name": "Lotus Root",
+        "slug": "lotus-root",
+        "url": "https://afcgrocery.com/lotus-root",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 590,
+        "name": "Arbi (Eddoes)",
+        "slug": "arbi-eddoes",
+        "url": "https://afcgrocery.com/arbi-eddoes",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 591,
+        "name": "Naan",
+        "slug": "naan",
+        "url": "https://afcgrocery.com/naan",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 592,
+        "name": "Thepla",
+        "slug": "thepla",
+        "url": "https://afcgrocery.com/thepla",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 593,
+        "name": "Kathi Roll",
+        "slug": "kathi-roll",
+        "url": "https://afcgrocery.com/kathi-roll",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 595,
+        "name": "Rice Roti",
+        "slug": "rice-roti",
+        "url": "https://afcgrocery.com/rice-roti",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 596,
+        "name": "Ginger / Garlic",
+        "slug": "ginger-garlic",
+        "url": "https://afcgrocery.com/ginger-garlic",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 597,
+        "name": "Puff Pastry",
+        "slug": "puff-pastry",
+        "url": "https://afcgrocery.com/puff-pastry",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 598,
+        "name": "Dahi Vada",
+        "slug": "dahi-vada",
+        "url": "https://afcgrocery.com/dahi-vada",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 599,
+        "name": "Kachori",
+        "slug": "kachori",
+        "url": "https://afcgrocery.com/kachori",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 600,
+        "name": "Chappati",
+        "slug": "chappati",
+        "url": "https://afcgrocery.com/chappati",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 601,
+        "name": "Tinda",
+        "slug": "tinda",
+        "url": "https://afcgrocery.com/tinda",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 602,
+        "name": "Parwal",
+        "slug": "parwal",
+        "url": "https://afcgrocery.com/parwal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 603,
+        "name": "Drumsticks",
+        "slug": "drumsticks",
+        "url": "https://afcgrocery.com/drumsticks",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 672,
+        "name": "Shami Kebabs",
+        "slug": "shami-kebabs",
+        "url": "https://afcgrocery.com/shami-kebabs",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 747,
+        "name": "Okra",
+        "slug": "okra",
+        "url": "https://afcgrocery.com/okra",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 640,
+    "name": "Fruits",
+    "slug": "fruits",
+    "url": "https://afcgrocery.com/fruits",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/640/EnPDFeaE5vMH4FXaMYExaLDCMAdmiqgc2Yt2AjSw.png",
+    "children": []
+  },
+  {
+    "id": 629,
+    "name": "Instant Food Mix",
+    "slug": "instant-food-mix",
+    "url": "https://afcgrocery.com/instant-food-mix",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/629/wqxvohaufJaWLG3mwQVdiqUnMZlSb1Kiskxu1mgg.png",
+    "children": [
+      {
+        "id": 630,
+        "name": "Gulab Jamun Mix",
+        "slug": "gulab-jamun-mix",
+        "url": "https://afcgrocery.com/gulab-jamun-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 631,
+        "name": "Idli Mix",
+        "slug": "idli-mix-i",
+        "url": "https://afcgrocery.com/idli-mix-i",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 632,
+        "name": "Jalebi Mix",
+        "slug": "jalebi-mix",
+        "url": "https://afcgrocery.com/jalebi-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 633,
+        "name": "Dosa Mix",
+        "slug": "dosa-mix-i",
+        "url": "https://afcgrocery.com/dosa-mix-i",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 634,
+        "name": "Dahi Vada Mix",
+        "slug": "dahi-vada-mix",
+        "url": "https://afcgrocery.com/dahi-vada-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 635,
+        "name": "Uttappam Mix",
+        "slug": "uttappam-mix-i",
+        "url": "https://afcgrocery.com/uttappam-mix-i",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 636,
+        "name": "Vada Mix",
+        "slug": "vada-mix-i",
+        "url": "https://afcgrocery.com/vada-mix-i",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 637,
+        "name": "Dhokla Mix",
+        "slug": "dhokla-mix",
+        "url": "https://afcgrocery.com/dhokla-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 638,
+        "name": "Noodles & Pasta",
+        "slug": "noodles-pasta",
+        "url": "https://afcgrocery.com/noodles-pasta",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 639,
+        "name": "Soup",
+        "slug": "soup",
+        "url": "https://afcgrocery.com/soup",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 725,
+        "name": "Desserts Mix",
+        "slug": "desserts-mix",
+        "url": "https://afcgrocery.com/desserts-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 729,
+        "name": "Soya Chaap",
+        "slug": "soya-chaap",
+        "url": "https://afcgrocery.com/soya-chaap",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 744,
+        "name": "Dosa & Idli Mix",
+        "slug": "dosa-idli-mix",
+        "url": "https://afcgrocery.com/dosa-idli-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 745,
+        "name": "Dasa Mix",
+        "slug": "dasa-mix",
+        "url": "https://afcgrocery.com/dasa-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 746,
+        "name": "Roti / Chappati",
+        "slug": "roti-chappati",
+        "url": "https://afcgrocery.com/roti-chappati",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 507,
+    "name": "Oils",
+    "slug": "oils",
+    "url": "https://afcgrocery.com/oils",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/507/w45xGc7rCEvkJsV1WqU5if8qEqDBQlZrJ1kcwIlL.png",
+    "children": [
+      {
+        "id": 509,
+        "name": "Canola Oil",
+        "slug": "canola-oil",
+        "url": "https://afcgrocery.com/canola-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 510,
+        "name": "Almond Oil",
+        "slug": "almond-oil",
+        "url": "https://afcgrocery.com/almond-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 511,
+        "name": "Alsi (Flaxseed) Oil",
+        "slug": "alsi-flaxseed-oil",
+        "url": "https://afcgrocery.com/alsi-flaxseed-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 512,
+        "name": "Baby Oil",
+        "slug": "baby-oil",
+        "url": "https://afcgrocery.com/baby-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 513,
+        "name": "Avocado Oil",
+        "slug": "avocado-oil",
+        "url": "https://afcgrocery.com/avocado-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 514,
+        "name": "Camphor Oil",
+        "slug": "camphor-oil",
+        "url": "https://afcgrocery.com/camphor-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 515,
+        "name": "Castor Oil",
+        "slug": "castor-oil",
+        "url": "https://afcgrocery.com/castor-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 516,
+        "name": "Clove Oil",
+        "slug": "clove-oil",
+        "url": "https://afcgrocery.com/clove-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 517,
+        "name": "Blackseed Oil",
+        "slug": "blackseed-oil",
+        "url": "https://afcgrocery.com/blackseed-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 518,
+        "name": "Corn Oil",
+        "slug": "corn-oil",
+        "url": "https://afcgrocery.com/corn-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 519,
+        "name": "Coconut Oil",
+        "slug": "coconut-oil",
+        "url": "https://afcgrocery.com/coconut-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 520,
+        "name": "Flaxseed Oil",
+        "slug": "flaxseed-oil",
+        "url": "https://afcgrocery.com/flaxseed-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 522,
+        "name": "Eucalyptus Oil",
+        "slug": "eucalyptus-oil",
+        "url": "https://afcgrocery.com/eucalyptus-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 523,
+        "name": "Mustard Oil",
+        "slug": "mustard-oil",
+        "url": "https://afcgrocery.com/mustard-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 525,
+        "name": "Neem Oil",
+        "slug": "neem-oil",
+        "url": "https://afcgrocery.com/neem-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 526,
+        "name": "Grapeseed Oil",
+        "slug": "grapeseed-oil",
+        "url": "https://afcgrocery.com/grapeseed-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 528,
+        "name": "Kalongi Oil",
+        "slug": "kalongi-oil",
+        "url": "https://afcgrocery.com/kalongi-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 529,
+        "name": "Vegetable Oil",
+        "slug": "vegetable-oil",
+        "url": "https://afcgrocery.com/vegetable-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 530,
+        "name": "Olive Oil",
+        "slug": "olive-oil",
+        "url": "https://afcgrocery.com/olive-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 531,
+        "name": "Sesame Oil",
+        "slug": "sesame-oil",
+        "url": "https://afcgrocery.com/sesame-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 532,
+        "name": "Sunflower Oil",
+        "slug": "sunflower-oil",
+        "url": "https://afcgrocery.com/sunflower-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 534,
+        "name": "Walnut Oil",
+        "slug": "walnut-oil",
+        "url": "https://afcgrocery.com/walnut-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 535,
+        "name": "Peanut Oil",
+        "slug": "peanut-oil",
+        "url": "https://afcgrocery.com/peanut-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 755,
+        "name": "pomace-oil ",
+        "slug": "pomace-oil",
+        "url": "https://afcgrocery.com/pomace-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 756,
+        "name": "Alsi Oil",
+        "slug": "alsi-oil",
+        "url": "https://afcgrocery.com/alsi-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 757,
+        "name": "Black Oil",
+        "slug": "black-oil",
+        "url": "https://afcgrocery.com/black-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 758,
+        "name": "Linseed Oil",
+        "slug": "linseed-oil",
+        "url": "https://afcgrocery.com/linseed-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 759,
+        "name": "Ajwain Oil",
+        "slug": "ajwain-oil",
+        "url": "https://afcgrocery.com/ajwain-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 760,
+        "name": "Argan Oil",
+        "slug": "argan-oil",
+        "url": "https://afcgrocery.com/argan-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 761,
+        "name": "Poppy Oil",
+        "slug": "poppy-oil",
+        "url": "https://afcgrocery.com/poppy-oil",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 763,
+        "name": "Avacado Oil",
+        "slug": "avacado-oil",
+        "url": "https://afcgrocery.com/avacado-oil",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 647,
+    "name": "Frozen Meat",
+    "slug": "frozen-meat",
+    "url": "https://afcgrocery.com/frozen-meat",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/647/OsAew95LWLfOe4yXV90074B7pONsFaY3iuy7BYxv.png",
+    "children": [
+      {
+        "id": 648,
+        "name": "Chicken Kebabs",
+        "slug": "chicken-kebabs",
+        "url": "https://afcgrocery.com/chicken-kebabs",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 649,
+        "name": "Chicken Samosas",
+        "slug": "chicken-samosas",
+        "url": "https://afcgrocery.com/chicken-samosas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 650,
+        "name": "Spring Rolls",
+        "slug": "spring-rolls",
+        "url": "https://afcgrocery.com/spring-rolls",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 651,
+        "name": "Tandoori Chicken",
+        "slug": "tandoori-chicken",
+        "url": "https://afcgrocery.com/tandoori-chicken",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 652,
+        "name": "Chicken Burgers",
+        "slug": "chicken-burgers",
+        "url": "https://afcgrocery.com/chicken-burgers",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 653,
+        "name": "Chicken Strips",
+        "slug": "chicken-strip",
+        "url": "https://afcgrocery.com/chicken-strip",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 654,
+        "name": "Shami Kebab",
+        "slug": "shami-kebab",
+        "url": "https://afcgrocery.com/shami-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 655,
+        "name": "Beef Kebab",
+        "slug": "beef-kebab",
+        "url": "https://afcgrocery.com/beef-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 656,
+        "name": "Chicken Rolls",
+        "slug": "chicken-rolls",
+        "url": "https://afcgrocery.com/chicken-rolls",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 657,
+        "name": "Beef Samosas",
+        "slug": "beef-samosas",
+        "url": "https://afcgrocery.com/beef-samosas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 658,
+        "name": "Beef Seekh Kebab",
+        "slug": "beef-seekh-kebab",
+        "url": "https://afcgrocery.com/beef-seekh-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 659,
+        "name": "Chicken Chapli Kebab",
+        "slug": "chicken-chapli-kebab",
+        "url": "https://afcgrocery.com/chicken-chapli-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 660,
+        "name": "Chicken Shami Kebab",
+        "slug": "chicken-shami-kebab",
+        "url": "https://afcgrocery.com/chicken-shami-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 661,
+        "name": "Chicken Reshmi Kebab",
+        "slug": "chicken-reshmi-kebab",
+        "url": "https://afcgrocery.com/chicken-reshmi-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 662,
+        "name": "Chicken Seekh Kebab",
+        "slug": "chicken-seekh-kebab",
+        "url": "https://afcgrocery.com/chicken-seekh-kebab",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 663,
+        "name": "Chicken Tikka Roll",
+        "slug": "chicken-tikka-roll",
+        "url": "https://afcgrocery.com/chicken-tikka-roll",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 664,
+        "name": "MT MEATS",
+        "slug": "mt-meats",
+        "url": "https://afcgrocery.com/mt-meats",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 680,
+    "name": "Meat",
+    "slug": "meat",
+    "url": "https://afcgrocery.com/meat",
+    "image_url": null,
+    "children": [
+      {
+        "id": 681,
+        "name": "Cooked Sea Food",
+        "slug": "cooked-sea-food",
+        "url": "https://afcgrocery.com/cooked-sea-food",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 682,
+        "name": "Raw Sea food",
+        "slug": "raw-sea-food",
+        "url": "https://afcgrocery.com/raw-sea-food",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 683,
+        "name": "Raw Meat",
+        "slug": "raw-meat",
+        "url": "https://afcgrocery.com/raw-meat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 684,
+        "name": "Non Veg Curries",
+        "slug": "non-veg-curries",
+        "url": "https://afcgrocery.com/non-veg-curries",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 686,
+        "name": "Cooked Meat",
+        "slug": "cooked-meat",
+        "url": "https://afcgrocery.com/cooked-meat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 687,
+        "name": "Marinated Meat",
+        "slug": "marinated-meat",
+        "url": "https://afcgrocery.com/marinated-meat",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 688,
+        "name": "Non Veg Appetizers",
+        "slug": "non-veg-appetizers",
+        "url": "https://afcgrocery.com/non-veg-appetizers",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 689,
+        "name": "Naan / Bread",
+        "slug": "naan-bread",
+        "url": "https://afcgrocery.com/naan-bread",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 869,
+        "name": "GRILLED",
+        "slug": "grilled",
+        "url": "https://afcgrocery.com/grilled",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 694,
+    "name": "Desserts",
+    "slug": "desserts",
+    "url": "https://afcgrocery.com/desserts",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/694/EpqTf4ZCbAxJK3LA8BPkiFZcFzcq7ujw8CZ0JqOd.png",
+    "children": []
+  },
+  {
+    "id": 547,
+    "name": "Pickles / Paste",
+    "slug": "pickles-paste",
+    "url": "https://afcgrocery.com/pickles-paste",
+    "image_url": null,
+    "children": [
+      {
+        "id": 548,
+        "name": "Pickle",
+        "slug": "pickle",
+        "url": "https://afcgrocery.com/pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 549,
+        "name": "Dipping",
+        "slug": "dipping",
+        "url": "https://afcgrocery.com/dipping",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 550,
+        "name": "Spice",
+        "slug": "spice",
+        "url": "https://afcgrocery.com/spice",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 551,
+        "name": "Murabba",
+        "slug": "murabba",
+        "url": "https://afcgrocery.com/murabba",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 552,
+        "name": "Sauce",
+        "slug": "sauce",
+        "url": "https://afcgrocery.com/sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 553,
+        "name": "Paste",
+        "slug": "paste",
+        "url": "https://afcgrocery.com/paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 604,
+        "name": "Salad Dressing",
+        "slug": "salad-dressing",
+        "url": "https://afcgrocery.com/salad-dressing",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 605,
+        "name": "Jam",
+        "slug": "jam",
+        "url": "https://afcgrocery.com/jam",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 710,
+        "name": "Tomato Puree",
+        "slug": "tomato-puree",
+        "url": "https://afcgrocery.com/tomato-puree",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 721,
+        "name": "Green Chilli Pickle",
+        "slug": "green-chilli-pickle",
+        "url": "https://afcgrocery.com/green-chilli-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 722,
+        "name": "Mango Pickle",
+        "slug": "mango-pickle",
+        "url": "https://afcgrocery.com/mango-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 726,
+        "name": "Mixed Pickle",
+        "slug": "mixed-pickle",
+        "url": "https://afcgrocery.com/mixed-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 731,
+        "name": "Karela Pickle",
+        "slug": "karela-pickle",
+        "url": "https://afcgrocery.com/karela-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 733,
+        "name": "Mango chutney",
+        "slug": "mango-chutney",
+        "url": "https://afcgrocery.com/mango-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 734,
+        "name": "Mixed Chutney",
+        "slug": "mixed-chutney",
+        "url": "https://afcgrocery.com/mixed-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 735,
+        "name": "Tamarind Chutney",
+        "slug": "tamarind-chutney",
+        "url": "https://afcgrocery.com/tamarind-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 739,
+        "name": "Bel Murabba",
+        "slug": "bel-murabba",
+        "url": "https://afcgrocery.com/bel-murabba",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 750,
+        "name": "Garlic Chutney ",
+        "slug": "garlic-chutney",
+        "url": "https://afcgrocery.com/garlic-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 751,
+        "name": "Green Pickle ",
+        "slug": "green-pickle",
+        "url": "https://afcgrocery.com/green-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 825,
+        "name": "Carrot Pickle",
+        "slug": "carrot-pickle",
+        "url": "https://afcgrocery.com/carrot-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 827,
+        "name": "Chilli Pickle",
+        "slug": "chilli-pickle",
+        "url": "https://afcgrocery.com/chilli-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 828,
+        "name": "Tarmarind Sauce",
+        "slug": "tarmarind-sauce",
+        "url": "https://afcgrocery.com/tarmarind-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 829,
+        "name": "Lime Pickle",
+        "slug": "lime-pickle",
+        "url": "https://afcgrocery.com/lime-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 830,
+        "name": "Berry Pickle",
+        "slug": "berry-pickle",
+        "url": "https://afcgrocery.com/berry-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 831,
+        "name": "Coriander Chutney",
+        "slug": "coriander-chutney",
+        "url": "https://afcgrocery.com/coriander-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 833,
+        "name": "Katki Pickle",
+        "slug": "katki-pickle",
+        "url": "https://afcgrocery.com/katki-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 834,
+        "name": "Curry Paste",
+        "slug": "curry-paste",
+        "url": "https://afcgrocery.com/curry-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 835,
+        "name": "Pizza Sauce",
+        "slug": "pizza-sauce",
+        "url": "https://afcgrocery.com/pizza-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 836,
+        "name": "Ketchup",
+        "slug": "ketchup",
+        "url": "https://afcgrocery.com/ketchup",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 837,
+        "name": "Coconut Chutney",
+        "slug": "coconut-chutney",
+        "url": "https://afcgrocery.com/coconut-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 838,
+        "name": "Tomato Pasta",
+        "slug": "tomato-pasta",
+        "url": "https://afcgrocery.com/tomato-pasta",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 839,
+        "name": "Garlic Pickle",
+        "slug": "garlic-pickle",
+        "url": "https://afcgrocery.com/garlic-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 840,
+        "name": "Fish Masala Paste",
+        "slug": "fish-masala-paste",
+        "url": "https://afcgrocery.com/fish-masala-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 841,
+        "name": "Chicken Seasoning",
+        "slug": "chicken-seasoning",
+        "url": "https://afcgrocery.com/chicken-seasoning",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 842,
+        "name": "Gunda Pickle",
+        "slug": "gunda-pickle",
+        "url": "https://afcgrocery.com/gunda-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 843,
+        "name": "Onion Paste",
+        "slug": "onion-paste",
+        "url": "https://afcgrocery.com/onion-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 844,
+        "name": "Chili Sauce",
+        "slug": "chili-sauce",
+        "url": "https://afcgrocery.com/chili-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 845,
+        "name": "chutney",
+        "slug": "chutney",
+        "url": "https://afcgrocery.com/chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 846,
+        "name": "Chili Pickle",
+        "slug": "chili-pickle",
+        "url": "https://afcgrocery.com/chili-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 847,
+        "name": "Ginger Paste",
+        "slug": "ginger-paste",
+        "url": "https://afcgrocery.com/ginger-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 848,
+        "name": "Green Chilli Chutney",
+        "slug": "green-chilli-chutney",
+        "url": "https://afcgrocery.com/green-chilli-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 849,
+        "name": "Haldar Pickle",
+        "slug": "haldar-pickle",
+        "url": "https://afcgrocery.com/haldar-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 850,
+        "name": "Pickle Masala",
+        "slug": "pickle-masala",
+        "url": "https://afcgrocery.com/pickle-masala",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 851,
+        "name": "Tarmarind Chutney",
+        "slug": "tarmarind-chutney",
+        "url": "https://afcgrocery.com/tarmarind-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 852,
+        "name": "Ginger Garlic Paste",
+        "slug": "ginger-garlic-paste",
+        "url": "https://afcgrocery.com/ginger-garlic-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 854,
+        "name": "Amla Pickle",
+        "slug": "amla-pickle",
+        "url": "https://afcgrocery.com/amla-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 855,
+        "name": "Gulkand",
+        "slug": "gulkand",
+        "url": "https://afcgrocery.com/gulkand",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 856,
+        "name": "Chunndo Pickle",
+        "slug": "chunndo-pickle",
+        "url": "https://afcgrocery.com/chunndo-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 857,
+        "name": "Gorkeri Pickle",
+        "slug": "gorkeri-pickle",
+        "url": "https://afcgrocery.com/gorkeri-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 859,
+        "name": "Tomato Chutney",
+        "slug": "tomato-chutney",
+        "url": "https://afcgrocery.com/tomato-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 860,
+        "name": "Barbeque Paste",
+        "slug": "barbeque-paste",
+        "url": "https://afcgrocery.com/barbeque-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 861,
+        "name": "Memoni Mix",
+        "slug": "memoni-mix",
+        "url": "https://afcgrocery.com/memoni-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 862,
+        "name": "Carrot / Chilli",
+        "slug": "carrot-chilli",
+        "url": "https://afcgrocery.com/carrot-chilli",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 863,
+        "name": "Ginger Pickle",
+        "slug": "ginger-pickle",
+        "url": "https://afcgrocery.com/ginger-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 864,
+        "name": "Biryani Paste",
+        "slug": "biryani-paste",
+        "url": "https://afcgrocery.com/biryani-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 865,
+        "name": "Amba Pickle",
+        "slug": "amba-pickle",
+        "url": "https://afcgrocery.com/amba-pickle",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 866,
+        "name": "Chili Paste",
+        "slug": "chili-paste",
+        "url": "https://afcgrocery.com/chili-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 867,
+        "name": "Green Chilli Paste",
+        "slug": "green-chilli-paste",
+        "url": "https://afcgrocery.com/green-chilli-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 868,
+        "name": "Tarmarind Paste",
+        "slug": "tarmarind-paste",
+        "url": "https://afcgrocery.com/tarmarind-paste",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "name": "Pulses / Canned",
+    "slug": "pulses-canned",
+    "url": "https://afcgrocery.com/pulses-canned",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/451/dFbADKZE6JZK7ifeHe3qWP2tHgUvc9kB0TgT5HS4.png",
+    "children": [
+      {
+        "id": 460,
+        "name": "Beans",
+        "slug": "beans",
+        "url": "https://afcgrocery.com/beans",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 461,
+        "name": "Black Channa",
+        "slug": "black-channa",
+        "url": "https://afcgrocery.com/black-channa",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 462,
+        "name": "Black Eye Beans",
+        "slug": "black-eye-beans",
+        "url": "https://afcgrocery.com/black-eye-beans",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 463,
+        "name": "Channa",
+        "slug": "channa",
+        "url": "https://afcgrocery.com/channa",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 464,
+        "name": "Chick Peas",
+        "slug": "chick-peas",
+        "url": "https://afcgrocery.com/chick-peas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 465,
+        "name": "Corn",
+        "slug": "corn",
+        "url": "https://afcgrocery.com/corn",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 466,
+        "name": "Dalia",
+        "slug": "dalia",
+        "url": "https://afcgrocery.com/dalia",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 467,
+        "name": "Evaporated Milk",
+        "slug": "evaporated-milk",
+        "url": "https://afcgrocery.com/evaporated-milk",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 468,
+        "name": "Green Chick Peas",
+        "slug": "green-chick-peas",
+        "url": "https://afcgrocery.com/green-chick-peas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 469,
+        "name": "Green Peas",
+        "slug": "green-peas",
+        "url": "https://afcgrocery.com/green-peas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 470,
+        "name": "Jackfruit",
+        "slug": "jackfruit",
+        "url": "https://afcgrocery.com/jackfruit",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 471,
+        "name": "Kidney Beans",
+        "slug": "kidney-beans",
+        "url": "https://afcgrocery.com/kidney-beans",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 473,
+        "name": "Massar",
+        "slug": "massar",
+        "url": "https://afcgrocery.com/massar",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 474,
+        "name": "Massor",
+        "slug": "massor",
+        "url": "https://afcgrocery.com/massor",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 475,
+        "name": "Mix Dal",
+        "slug": "mix-dal",
+        "url": "https://afcgrocery.com/mix-dal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 476,
+        "name": "Moong",
+        "slug": "moong",
+        "url": "https://afcgrocery.com/moong",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 477,
+        "name": "Moong Dal",
+        "slug": "moong-dal",
+        "url": "https://afcgrocery.com/moong-dal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 479,
+        "name": "Moth",
+        "slug": "moth",
+        "url": "https://afcgrocery.com/moth",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 480,
+        "name": "Moth Beans",
+        "slug": "moth-beans",
+        "url": "https://afcgrocery.com/moth-beans",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 483,
+        "name": "Soya",
+        "slug": "soya",
+        "url": "https://afcgrocery.com/soya",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 484,
+        "name": "Toor Dal",
+        "slug": "toor-dal",
+        "url": "https://afcgrocery.com/toor-dal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 485,
+        "name": "Urad",
+        "slug": "urad",
+        "url": "https://afcgrocery.com/urad",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 486,
+        "name": "Yellow Peas",
+        "slug": "yellow-peas",
+        "url": "https://afcgrocery.com/yellow-peas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 488,
+        "name": "Quinoa",
+        "slug": "quinoa",
+        "url": "https://afcgrocery.com/quinoa",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 714,
+        "name": "Garlic Paste",
+        "slug": "garlic-paste",
+        "url": "https://afcgrocery.com/garlic-paste",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 764,
+        "name": "Chana Dal",
+        "slug": "chana-dal",
+        "url": "https://afcgrocery.com/chana-dal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 765,
+        "name": "MOTH DAL",
+        "slug": "moth-dal",
+        "url": "https://afcgrocery.com/moth-dal",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 766,
+        "name": "White Chana",
+        "slug": "white-chana",
+        "url": "https://afcgrocery.com/white-chana",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 767,
+        "name": "Black Chana",
+        "slug": "black-chana",
+        "url": "https://afcgrocery.com/black-chana",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 768,
+        "name": "Kala Chana",
+        "slug": "kala-chana",
+        "url": "https://afcgrocery.com/kala-chana",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 769,
+        "name": "Black Beans",
+        "slug": "black-beans",
+        "url": "https://afcgrocery.com/black-beans",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 770,
+        "name": "Soya Whole",
+        "slug": "soya-whole",
+        "url": "https://afcgrocery.com/soya-whole",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 771,
+        "name": "Bajra Dalia",
+        "slug": "bajra-dalia",
+        "url": "https://afcgrocery.com/bajra-dalia",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 772,
+        "name": "Wheat Dalia",
+        "slug": "wheat-dalia",
+        "url": "https://afcgrocery.com/wheat-dalia",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 773,
+        "name": "Moong Split",
+        "slug": "moong-split",
+        "url": "https://afcgrocery.com/moong-split",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 774,
+        "name": "Urad Gota",
+        "slug": "urad-gota",
+        "url": "https://afcgrocery.com/urad-gota",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 775,
+        "name": "Urad Whole",
+        "slug": "urad-whole",
+        "url": "https://afcgrocery.com/urad-whole",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 776,
+        "name": "Moong Whole",
+        "slug": "moong-whole",
+        "url": "https://afcgrocery.com/moong-whole",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 777,
+        "name": "Canned Food",
+        "slug": "canned-food",
+        "url": "https://afcgrocery.com/canned-food",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 778,
+        "name": "Canned Peas",
+        "slug": "canned-peas",
+        "url": "https://afcgrocery.com/canned-peas",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 779,
+        "name": "Canned Beans",
+        "slug": "canned-beans",
+        "url": "https://afcgrocery.com/canned-beans",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 780,
+        "name": "Canned Chana",
+        "slug": "canned-chana",
+        "url": "https://afcgrocery.com/canned-chana",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 832,
+        "name": "Ginger / Garlic Pickle",
+        "slug": "ginger-garlic-pickle",
+        "url": "https://afcgrocery.com/ginger-garlic-pickle",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 676,
+    "name": "Rakhi",
+    "slug": "rakhi",
+    "url": "https://afcgrocery.com/rakhi",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 489,
+    "name": "Ready Meals",
+    "slug": "ready-meals",
+    "url": "https://afcgrocery.com/ready-meals",
+    "image_url": "https://afcgrocery.com/storage/velocity/category_icon_path/489/WMmagwn6MMpJ3mB7POmYg7p99D2SGY0o5AVdNPGC.png",
+    "children": [
+      {
+        "id": 723,
+        "name": "spinach puree",
+        "slug": "spinach-puree",
+        "url": "https://afcgrocery.com/spinach-puree",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 732,
+        "name": "Plain Paratha",
+        "slug": "plain-paratha",
+        "url": "https://afcgrocery.com/plain-paratha",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 736,
+        "name": "Aloo Paratha",
+        "slug": "aloo-paratha",
+        "url": "https://afcgrocery.com/aloo-paratha",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 737,
+        "name": "Paneer Paratha",
+        "slug": "paneer-paratha",
+        "url": "https://afcgrocery.com/paneer-paratha",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 742,
+        "name": "Chilli Paratha",
+        "slug": "chilli-paratha",
+        "url": "https://afcgrocery.com/chilli-paratha",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 748,
+        "name": "Samosa",
+        "slug": "samosa",
+        "url": "https://afcgrocery.com/samosa",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 753,
+        "name": "Pakoras",
+        "slug": "pakoras",
+        "url": "https://afcgrocery.com/pakoras",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 673,
+    "name": "Snacks",
+    "slug": "snacks",
+    "url": "https://afcgrocery.com/snacks",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 677,
+    "name": "Rice",
+    "slug": "rice",
+    "url": "https://afcgrocery.com/rice",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 606,
+    "name": "Sauces",
+    "slug": "sauces",
+    "url": "https://afcgrocery.com/sauces",
+    "image_url": null,
+    "children": [
+      {
+        "id": 607,
+        "name": "Hot Sauce",
+        "slug": "hot-sauce",
+        "url": "https://afcgrocery.com/hot-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 608,
+        "name": "Tomato Sauce",
+        "slug": "tomato-sauce",
+        "url": "https://afcgrocery.com/tomato-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 609,
+        "name": "Mushroom Sauce",
+        "slug": "mushroom-sauce",
+        "url": "https://afcgrocery.com/mushroom-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 610,
+        "name": "Avacado Mayo",
+        "slug": "avacado-mayo",
+        "url": "https://afcgrocery.com/avacado-mayo",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 611,
+        "name": "Burger Mayo",
+        "slug": "burger-mayo",
+        "url": "https://afcgrocery.com/burger-mayo",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 612,
+        "name": "Siracha Sauce",
+        "slug": "siracha-sauce",
+        "url": "https://afcgrocery.com/siracha-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 613,
+        "name": "Garlic Sauce",
+        "slug": "garlic-sauce",
+        "url": "https://afcgrocery.com/garlic-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 615,
+        "name": "Green Chilli Sauce",
+        "slug": "green-chilli-sauce",
+        "url": "https://afcgrocery.com/green-chilli-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 616,
+        "name": "Tamarind & Date",
+        "slug": "tamarind-date",
+        "url": "https://afcgrocery.com/tamarind-date",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 617,
+        "name": "Mint",
+        "slug": "mint",
+        "url": "https://afcgrocery.com/mint",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 618,
+        "name": "Coriander",
+        "slug": "coriander",
+        "url": "https://afcgrocery.com/coriander",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 619,
+        "name": "Mint & Coriander",
+        "slug": "mint-coriander",
+        "url": "https://afcgrocery.com/mint-coriander",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 620,
+        "name": "Siracha Garlic",
+        "slug": "siracha-garlic",
+        "url": "https://afcgrocery.com/siracha-garlic",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 621,
+        "name": "Hot & Sweet",
+        "slug": "hot-sweet",
+        "url": "https://afcgrocery.com/hot-sweet",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 622,
+        "name": "Soya Sauce",
+        "slug": "soya-sauce",
+        "url": "https://afcgrocery.com/soya-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 623,
+        "name": "Red Chilli Sauce",
+        "slug": "red-chilli-sauce",
+        "url": "https://afcgrocery.com/red-chilli-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 624,
+        "name": "Schezwan Chutney",
+        "slug": "schezwan-chutney",
+        "url": "https://afcgrocery.com/schezwan-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 625,
+        "name": "Schezwan Sauce",
+        "slug": "schezwan-sauce",
+        "url": "https://afcgrocery.com/schezwan-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 626,
+        "name": "BhelPuri Sauce",
+        "slug": "bhelpuri-sauce",
+        "url": "https://afcgrocery.com/bhelpuri-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 627,
+        "name": "Samosa Chutney",
+        "slug": "samosa-chutney",
+        "url": "https://afcgrocery.com/samosa-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 628,
+        "name": "Plum Chutney",
+        "slug": "plum-chutney",
+        "url": "https://afcgrocery.com/plum-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 717,
+        "name": "Chilli Chicken Sauce",
+        "slug": "chilli-chicken-sauce",
+        "url": "https://afcgrocery.com/chilli-chicken-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 724,
+        "name": "Chilli Sauce",
+        "slug": "chilli-sauce",
+        "url": "https://afcgrocery.com/chilli-sauce",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 788,
+        "name": "Mint Chutney",
+        "slug": "mint-chutney",
+        "url": "https://afcgrocery.com/mint-chutney",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 789,
+        "name": "Chilli Garlic Sauces",
+        "slug": "chilli-garlic-sauces",
+        "url": "https://afcgrocery.com/chilli-garlic-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 790,
+        "name": "Achari Sauces",
+        "slug": "achari-sauces",
+        "url": "https://afcgrocery.com/achari-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 791,
+        "name": "Schezwan Sauces",
+        "slug": "schezwan-sauces",
+        "url": "https://afcgrocery.com/schezwan-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 792,
+        "name": "Mango Sauces",
+        "slug": "mango-sauces",
+        "url": "https://afcgrocery.com/mango-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 794,
+        "name": "Coriander Sauces",
+        "slug": "coriander-sauces",
+        "url": "https://afcgrocery.com/coriander-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 795,
+        "name": "Mushroom Sauces",
+        "slug": "mushroom-sauces",
+        "url": "https://afcgrocery.com/mushroom-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 796,
+        "name": "Tomato Sauces",
+        "slug": "tomato-sauces",
+        "url": "https://afcgrocery.com/tomato-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 798,
+        "name": "Soy Sauces",
+        "slug": "soy-sauces",
+        "url": "https://afcgrocery.com/soy-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 800,
+        "name": "BBQ Sauces",
+        "slug": "bbq-sauces",
+        "url": "https://afcgrocery.com/bbq-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 801,
+        "name": "Hot Chilli Sauces",
+        "slug": "hot-chilli-sauces",
+        "url": "https://afcgrocery.com/hot-chilli-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 802,
+        "name": "Mustard Sauces",
+        "slug": "mustard-sauces",
+        "url": "https://afcgrocery.com/mustard-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 803,
+        "name": "Pepper Sauces",
+        "slug": "pepper-sauces",
+        "url": "https://afcgrocery.com/pepper-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 804,
+        "name": "Sriracha Sauces",
+        "slug": "sriracha-sauces",
+        "url": "https://afcgrocery.com/sriracha-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 805,
+        "name": "Salad Sauces",
+        "slug": "salad-sauces",
+        "url": "https://afcgrocery.com/salad-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 806,
+        "name": "Burger Sauces",
+        "slug": "burger-sauces",
+        "url": "https://afcgrocery.com/burger-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 808,
+        "name": "Manchurian Sauces",
+        "slug": "manchurian-sauces",
+        "url": "https://afcgrocery.com/manchurian-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 809,
+        "name": "Mint Sauces",
+        "slug": "mint-sauces",
+        "url": "https://afcgrocery.com/mint-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 810,
+        "name": "Rogan Sauces",
+        "slug": "rogan-sauces",
+        "url": "https://afcgrocery.com/rogan-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 811,
+        "name": "Butter Chicken Sauces",
+        "slug": "butter-chicken-sauces",
+        "url": "https://afcgrocery.com/butter-chicken-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 812,
+        "name": "Masala Sauces",
+        "slug": "masala-sauces",
+        "url": "https://afcgrocery.com/masala-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 813,
+        "name": "Curry Sauces",
+        "slug": "curry-sauces",
+        "url": "https://afcgrocery.com/curry-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 814,
+        "name": "Tikka Sauces",
+        "slug": "tikka-sauces",
+        "url": "https://afcgrocery.com/tikka-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 815,
+        "name": "Cucumber Sauces",
+        "slug": "cucumber-sauces",
+        "url": "https://afcgrocery.com/cucumber-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 816,
+        "name": "Hot Sweet Sauces",
+        "slug": "hot-sweet-sauces",
+        "url": "https://afcgrocery.com/hot-sweet-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 817,
+        "name": "Green Chilli Sauces",
+        "slug": "green-chilli-sauces",
+        "url": "https://afcgrocery.com/green-chilli-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 818,
+        "name": "Peri Peri Sauces",
+        "slug": "peri-peri-sauces",
+        "url": "https://afcgrocery.com/peri-peri-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 819,
+        "name": "Samosa Sauces",
+        "slug": "samosa-sauces",
+        "url": "https://afcgrocery.com/samosa-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 821,
+        "name": "Red Chilli Sauces",
+        "slug": "red-chilli-sauces",
+        "url": "https://afcgrocery.com/red-chilli-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 822,
+        "name": "Salsa Sauces",
+        "slug": "salsa-sauces",
+        "url": "https://afcgrocery.com/salsa-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 823,
+        "name": "Biryani Sauces",
+        "slug": "biryani-sauces",
+        "url": "https://afcgrocery.com/biryani-sauces",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 824,
+        "name": "Mayo Sauces",
+        "slug": "mayo-sauces",
+        "url": "https://afcgrocery.com/mayo-sauces",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 678,
+    "name": "Sugar",
+    "slug": "sugar",
+    "url": "https://afcgrocery.com/sugar",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 679,
+    "name": "Sweet",
+    "slug": "sweet",
+    "url": "https://afcgrocery.com/sweet",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 671,
+    "name": "Vegetables",
+    "slug": "vegetables",
+    "url": "https://afcgrocery.com/vegetables",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 665,
+    "name": "Spices & Herbs",
+    "slug": "spices-herbs",
+    "url": "https://afcgrocery.com/spices-herbs",
+    "image_url": null,
+    "children": [
+      {
+        "id": 699,
+        "name": "Spices",
+        "slug": "spices",
+        "url": "https://afcgrocery.com/spices",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 704,
+        "name": "Pickle Mix",
+        "slug": "pickle-mix",
+        "url": "https://afcgrocery.com/pickle-mix",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 706,
+        "name": "Punjabi Warian",
+        "slug": "punjabi-warian",
+        "url": "https://afcgrocery.com/punjabi-warian",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 707,
+        "name": "salt",
+        "slug": "salt",
+        "url": "https://afcgrocery.com/salt",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 741,
+        "name": "Tandoori Masala",
+        "slug": "tandoori-masala",
+        "url": "https://afcgrocery.com/tandoori-masala",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": 700,
+    "name": "Pooja Items",
+    "slug": "pooja-items",
+    "url": "https://afcgrocery.com/pooja-items",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 870,
+    "name": "COMBOS",
+    "slug": "combos",
+    "url": "https://afcgrocery.com/combos",
+    "image_url": null,
+    "children": []
+  },
+  {
+    "id": 702,
+    "name": "Lollies & Chocolates",
+    "slug": "lollies-chocolates",
+    "url": "https://afcgrocery.com/lollies-chocolates",
+    "image_url": null,
+    "children": [
+      {
+        "id": 703,
+        "name": "candies",
+        "slug": "candies",
+        "url": "https://afcgrocery.com/candies",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 713,
+        "name": "Digestives",
+        "slug": "digestives",
+        "url": "https://afcgrocery.com/digestives",
+        "image_url": null,
+        "children": []
+      },
+      {
+        "id": 738,
+        "name": "Indian candies",
+        "slug": "indian-candies",
+        "url": "https://afcgrocery.com/indian-candies",
+        "image_url": null,
+        "children": []
+      }
+    ]
+  }
+]

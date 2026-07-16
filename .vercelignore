@@ -1,0 +1,16 @@
+backend/app
+backend/evals
+backend/migrations
+backend/scripts
+backend/tests
+backend/Dockerfile
+backend/alembic.ini
+backend/requirements*.txt
+scripts
+docker-compose.yml
+render.yaml
+dist
+.wrangler
+.venv
+**/__pycache__
+**/*.pyc

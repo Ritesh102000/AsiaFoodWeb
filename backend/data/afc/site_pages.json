@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Home",
+    "url": "https://afcgrocery.com",
+    "purpose": "Brand overview, categories, featured/new/bestselling products"
+  },
+  {
+    "label": "Locations",
+    "url": "https://afcgrocery.com/locations",
+    "purpose": "Store addresses, phone numbers, and fax numbers"
+  },
+  {
+    "label": "About Us",
+    "url": "https://afcgrocery.com/about-us",
+    "purpose": "Assortment, mission, and goal"
+  },
+  {
+    "label": "New Products",
+    "url": "https://afcgrocery.com/categorysearch?new=1&title=new",
+    "purpose": "New-product catalog"
+  },
+  {
+    "label": "On Sale",
+    "url": "https://afcgrocery.com/categorysearch?onsale=1&title=on_sale",
+    "purpose": "Sale catalog"
+  },
+  {
+    "label": "Best Sellers",
+    "url": "https://afcgrocery.com/categorysearch?term=&category=&best_seller=1&limit=30&title=best_seller",
+    "purpose": "Best-seller catalog"
+  },
+  {
+    "label": "Monthly Flyer",
+    "url": "https://afcgrocery.com/monthlyflyer",
+    "purpose": "One-page flyer PDF"
+  },
+  {
+    "label": "Return Policy",
+    "url": "https://afcgrocery.com/return-policy",
+    "purpose": "Return exclusions and final-sale rules"
+  },
+  {
+    "label": "Delivery",
+    "url": "https://afcgrocery.com/delivery",
+    "purpose": "Currently marked Coming Soon"
+  },
+  {
+    "label": "Curbside Pickup",
+    "url": "https://afcgrocery.com/curbside-pickup",
+    "purpose": "Currently marked Coming Soon"
+  },
+  {
+    "label": "How It Works",
+    "url": "https://afcgrocery.com/how-it-works",
+    "purpose": "Currently marked Coming Soon"
+  },
+  {
+    "label": "Careers",
+    "url": "https://afcgrocery.com/career",
+    "purpose": "Online employment application"
+  },
+  {
+    "label": "Login",
+    "url": "https://afcgrocery.com/customer/login",
+    "purpose": "Customer account login"
+  },
+  {
+    "label": "Registration",
+    "url": "https://afcgrocery.com/customer/register",
+    "purpose": "New customer account"
+  }
+]

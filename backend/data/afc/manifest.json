@@ -1,0 +1,19 @@
+{
+  "source": "https://afcgrocery.com",
+  "fetched_at": "2026-07-16T10:11:02.221496+00:00",
+  "scope": "Public website content only; no account, checkout, or customer data.",
+  "counts": {
+    "top_level_categories": 30,
+    "category_nodes": 508,
+    "products": 100,
+    "locations": 8
+  },
+  "files": [
+    "brand.json",
+    "categories.json",
+    "products.json",
+    "locations.json",
+    "knowledge_base.json",
+    "site_pages.json"
+  ]
+}

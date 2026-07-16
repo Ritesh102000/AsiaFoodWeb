@@ -1,0 +1,48 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: afc
+      POSTGRES_USER: afc
+      POSTGRES_PASSWORD: afc
+    ports: ["5432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U afc"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes: ["afc_postgres:/var/lib/postgresql/data"]
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_URL: postgresql+asyncpg://afc:afc@db:5432/afc
+      QDRANT_URL: http://qdrant:6333
+    ports: ["8000:8000"]
+    depends_on:
+      db:
+        condition: service_healthy
+      qdrant:
+        condition: service_started
+  qdrant:
+    image: qdrant/qdrant:v1.15.4
+    ports: ["6333:6333", "6334:6334"]
+    volumes: ["afc_qdrant:/qdrant/storage"]
+  web:
+    build:
+      context: .
+      dockerfile: frontend.Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+    environment:
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    ports: ["3000:3000"]
+    depends_on: [api]
+volumes:
+  afc_postgres:
+  afc_qdrant:

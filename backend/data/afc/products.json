@@ -1,0 +1,1403 @@
+[
+  {
+    "id": 27803,
+    "name": "Vedic Triphala Juice 1L",
+    "unit": "1 LTR",
+    "price_cad": 15.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 5,
+    "product_url": "https://afcgrocery.com/vedic-triphala-juice-1l",
+    "image_url": "https://afcgrocery.com/cache/medium/product/27803/vedictriphalajuice1l.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 34051,
+    "name": "MITCHELLS GARLIC PASTE",
+    "unit": "320 GM",
+    "price_cad": 5.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/mitchells-garlic-paste-1kg",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34051/mitchellsgarlicpaste320gm.jpg",
+    "collections": [
+      "featured",
+      "new"
+    ]
+  },
+  {
+    "id": 33558,
+    "name": "MATOUK'S HOT PEPPER SAUCE",
+    "unit": "300 ML",
+    "price_cad": 5.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/matouks-hot-pepper-sauce",
+    "image_url": "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 27580,
+    "name": "Limca Indian",
+    "unit": "600 ML",
+    "price_cad": 1.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 5,
+    "product_url": "https://afcgrocery.com/limca-indian-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/27580/limcaindian600ml.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 28731,
+    "name": "REV 55 L REDI BROWN HAIR COLOR",
+    "unit": "1 PCS",
+    "price_cad": 6.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 5,
+    "product_url": "https://afcgrocery.com/rev-55-l-redi-brown-hair-color",
+    "image_url": "https://afcgrocery.com/cache/medium/product/28731/rev55lredibrownhaircolor.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 34126,
+    "name": "NATIONAL HYDERABADI MIXED PICKLE",
+    "unit": "1 KG",
+    "price_cad": 8.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/national-hyderabadi-mixed-pickle",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34126/nationalhyderabadimixedpickle.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 28231,
+    "name": "BIGEN S LIGHT W CHESTNUT LC",
+    "unit": "80 GM",
+    "price_cad": 17.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 5,
+    "product_url": "https://afcgrocery.com/bigen-s-light-w-chestnut-lc-80g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/28231/bigenslightwchestnutlc80g.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 33176,
+    "name": "LUCKY CHARMS 300G",
+    "unit": "300 GM",
+    "price_cad": 0.0,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/lucky-charms-300g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33176/LUCKYCHARMS300G.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 33080,
+    "name": "BLCK DIAMOND CHEDDAR SLICES 410G",
+    "unit": "410 GM",
+    "price_cad": 8.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/blck-diamond-cheddar-slices-410g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33080/BLCKDIAMONDCHEDDARSLICES410G.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 34160,
+    "name": "ORGANICA MIXED PICKLE",
+    "unit": "200 GM",
+    "price_cad": 4.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/organica-mixed-pickle",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34160/organicamixedpickle200g.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 34206,
+    "name": "PACHRANGA MIXED PICKLE",
+    "unit": "1 KG",
+    "price_cad": 6.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/pachranga-mixed-pickle",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34206/pachrangamixedpickle.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 28332,
+    "name": "DOVE SILKY BODY CREAM",
+    "unit": "300 ML",
+    "price_cad": 7.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 5,
+    "product_url": "https://afcgrocery.com/dove-silky-body-cream-300ml",
+    "image_url": "https://afcgrocery.com/cache/medium/product/28332/dovesilkybodycream300ml.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 34181,
+    "name": "PACHRANGA GREEN CHILLI PICKLE",
+    "unit": "1 KG",
+    "price_cad": 6.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/pachranga-green-chilli-pickle",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34181/pachrangagreenchillipickle1kg.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 28581,
+    "name": "NOORANI BURGUNDY HENNA",
+    "unit": "60 GM",
+    "price_cad": 3.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 5,
+    "product_url": "https://afcgrocery.com/noorani-burgundy-henna-60g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/28581/nooraniburgundyhenna60g.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 34546,
+    "name": "BISK CLUB SHERO BISCUIT (85G)",
+    "unit": "85G EACH",
+    "price_cad": 1.4,
+    "special_price_cad": 0.0,
+    "in_stock": false,
+    "order_limit": 0,
+    "product_url": "https://afcgrocery.com/bisk-club-shero-biscuit-85g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34546/6eZvcN6MCiDEz2ltD8eOfGgszwk84TlfZOAxOsz2.jpg",
+    "collections": [
+      "featured"
+    ]
+  },
+  {
+    "id": 33484,
+    "name": "MITCHELL TAMARIND SAUCE",
+    "unit": "300 GM",
+    "price_cad": 4.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/mitchell-tamarind-sauce",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33484/mitchelltamarindsauce.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 34556,
+    "name": "PRAN DRY CAKE",
+    "unit": "350GM GM",
+    "price_cad": 4.29,
+    "special_price_cad": 0.0,
+    "in_stock": false,
+    "order_limit": 10,
+    "product_url": "https://afcgrocery.com/pran-dry-cake",
+    "image_url": "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 32343,
+    "name": "CLIC CORN OIL",
+    "unit": "946 ML",
+    "price_cad": 6.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/clic-corn-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/32343/cliccornoil.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33077,
+    "name": "ASTRO ORIGINAL 750G",
+    "unit": "750 GM",
+    "price_cad": 5.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/astro-original-750g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33077/ASTROORIGINAL750G.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33357,
+    "name": "GEEBEE MADRAS COFFEE SWEETENED",
+    "unit": "2560 GM",
+    "price_cad": 7.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/geebee-madras-coffee-sweetened",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33357/geebeemadrascoffeesweetened.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 34325,
+    "name": "ZAIKA PAPAYA PASTE",
+    "unit": "330 GM",
+    "price_cad": 4.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/zaika-papaya-paste",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34325/zaikapapayapaste.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33955,
+    "name": "ACHAR PACHRANGA",
+    "unit": "500 ML",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/achar-pachranga",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33955/allensapplevinegar.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 31844,
+    "name": "SHUBH LABH DIYA",
+    "unit": "6 PCS",
+    "price_cad": 4.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/shubh-labh-diya",
+    "image_url": "https://afcgrocery.com/cache/medium/product/31844/shubhlabhdiya.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 34128,
+    "name": "NATIONAL KARELA PICKLE",
+    "unit": "500 GM",
+    "price_cad": 5.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/national-karela-pickle-500gm",
+    "image_url": "https://afcgrocery.com/cache/medium/product/34128/nationalkarelapickle500g.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33950,
+    "name": "ACHAR PACHRANGA",
+    "unit": "750 GM",
+    "price_cad": 6.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/achar-pachranga-750gm",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33950/acharpachranga.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33596,
+    "name": "SRIRACHA HOT CHLLI SUCE",
+    "unit": "740 ML",
+    "price_cad": 9.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/sriracha-hot-chlli-suce",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33596/srirachahotchllisuce.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 32334,
+    "name": "BANSI FILTERED SESAME OIL",
+    "unit": "500 ML",
+    "price_cad": 7.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/bansi-filtered-sesame-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/32334/SvqtYwVTi6Qw0JP5Y0L90GUp942gDXLET4Cjy7yl.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33102,
+    "name": "SAVERA PANEER 1.6KG",
+    "unit": "1.6 KG",
+    "price_cad": 29.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/savera-paneer-16kg",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33102/SAVERAPANEER1.6KG.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 33061,
+    "name": "NATREL MILK 3%",
+    "unit": "4 LTR",
+    "price_cad": 9.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/natrel-milk-3",
+    "image_url": "https://afcgrocery.com/cache/medium/product/33061/GbEB0Io0MYRaEcIFW4GtfyE5JWAYiPqtOyOzOBAZ.jpg",
+    "collections": [
+      "new"
+    ]
+  },
+  {
+    "id": 29022,
+    "name": "Banana",
+    "unit": "1 LB",
+    "price_cad": 0.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/banana-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29022/VAuiNPspsOcRxURzgSzRxn33xGiP5rukfbCvkHDx.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29095,
+    "name": "Cauliflower",
+    "unit": "1 ea",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/cauliflower",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29095/cauliflower.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29100,
+    "name": "Coriander Bunch",
+    "unit": "1 ea",
+    "price_cad": 1.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/coriander-bunch",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29100/corianderbunch.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29101,
+    "name": "Curry Leaves",
+    "unit": "1 ea",
+    "price_cad": 1.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/curry-leaves",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29101/curryleaves.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29109,
+    "name": "Eggplant Small",
+    "unit": "1 LB",
+    "price_cad": 2.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/eggplant-small",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29109/eggplantsmall.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29112,
+    "name": "Fresh Tomatoes",
+    "unit": "1 LB",
+    "price_cad": 2.39,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/fresh-tomatoes",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29112/freshtomatoes.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29113,
+    "name": "Garlic Pack 3",
+    "unit": "1 ea",
+    "price_cad": 0.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/garlic-pack-3",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29113/afChPu0FzC25yrkjBLl2jzg1Dp6jyk1pyPBbfU45.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29114,
+    "name": "Ginger",
+    "unit": "1 LB",
+    "price_cad": 3.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/ginger",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29114/ginger.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29115,
+    "name": "Green Beans",
+    "unit": "1 LB",
+    "price_cad": 3.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/green-beans",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29115/iNGZaxLzFOijK7E0mTrroorzdnA47IBpOFoBiuMn.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29119,
+    "name": "Green Pepper",
+    "unit": "1 LB",
+    "price_cad": 3.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/green-pepper",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29119/greenpepper.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29125,
+    "name": "Indian Karela",
+    "unit": "1 LB",
+    "price_cad": 3.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/indian-karela",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29125/indiankarela.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29126,
+    "name": "Indian Lockey",
+    "unit": "1 LB",
+    "price_cad": 2.39,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/indian-lockey",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29126/indianlockey.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29127,
+    "name": "Indian Okra",
+    "unit": "1 LB",
+    "price_cad": 4.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/indian-okra",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29127/indianokra.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29139,
+    "name": "Methi Bunch",
+    "unit": "1 ea",
+    "price_cad": 2.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/methi-bunch",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29139/methibunch.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29140,
+    "name": "Mint Bunch",
+    "unit": "1 ea",
+    "price_cad": 1.19,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/mint-bunch",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29140/mintbunch.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29144,
+    "name": "Onion Bag",
+    "unit": "10 LB",
+    "price_cad": 4.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/onion-bag",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29144/onionbag10lb.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29157,
+    "name": "Red Onion",
+    "unit": "10 LB",
+    "price_cad": 6.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/red-onion",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29157/redonion10lb.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29161,
+    "name": "Roman Tomatoes",
+    "unit": "1 LB",
+    "price_cad": 1.69,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/roman-tomatoes",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29161/romantomatoes.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29163,
+    "name": "Spinach Bunch",
+    "unit": "1 ea",
+    "price_cad": 1.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/spinach-bunch",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29163/spinachbunch.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 29167,
+    "name": "Thai Chilli",
+    "unit": "1 LB",
+    "price_cad": 5.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/thai-chilli",
+    "image_url": "https://afcgrocery.com/cache/medium/product/29167/JuL8WRnDb4euWLnJQVUuOz1f92HB1gKcgNTPOmpf.jpg",
+    "collections": [
+      "best_seller"
+    ]
+  },
+  {
+    "id": 23174,
+    "name": "Ajax Lemon Dish Liquid",
+    "unit": "887 ML",
+    "price_cad": 3.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/ajax-lemon-dish-liquid-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23174/ajaxlemondishliquid887ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23240,
+    "name": "Desi Choice Mango Kulfi Box 6Pcs",
+    "unit": "PCS",
+    "price_cad": 5.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/desi-choice-mango-kulfi-box-6pcs",
+    "image_url": "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23241,
+    "name": "Desi's Choice Falooda Kulfi6pc",
+    "unit": "PCS",
+    "price_cad": 5.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/desis-choice-falooda-kulfi6pc",
+    "image_url": "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23372,
+    "name": "Qarshi Sandal Syrup",
+    "unit": "800 ML",
+    "price_cad": 4.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/qarshi-sandal-syrup-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23372/qarshisandalsyrup800ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23529,
+    "name": "Qar JamEShirin S Fr Syrup",
+    "unit": "800 ML",
+    "price_cad": 4.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/qar-jameshirin-s-fr-syrup",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23529/qarjameshirinsfrsyrup800ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23530,
+    "name": "Qarshi Cardamom Syrup",
+    "unit": "800 ML",
+    "price_cad": 5.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/qarshi-cardamom-syrup-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23530/qarshicardamomsyrup800ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23551,
+    "name": "AIRW LINEN&WHITE AIR FRESH226G",
+    "unit": "226 g",
+    "price_cad": 2.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/airw-linenwhite-air-fresh226g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23551/airwlinenwhiteairfresh226g.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23552,
+    "name": "AIRWick VANILLA AIR FRESHNER 226G",
+    "unit": "226 g",
+    "price_cad": 2.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/airwick-vanilla-air-freshner-226g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23552/airwvanillaairfreshner226g.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23553,
+    "name": "AIRWICK LAV&CHAM AIR FRESH 226G",
+    "unit": "226 g",
+    "price_cad": 4.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/airwick-lavcham-air-fresh-226g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23553/airwicklavchamairfresh226g.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23557,
+    "name": "ARM & HAMMER LAUNDRY LIQUID 1.81LTR",
+    "unit": "1.81 LTR",
+    "price_cad": 7.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/arm-hammer-laundry-liquid-181ltr",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23557/armhammerlaundryliquid181ltr.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23564,
+    "name": "Air Wick APLE CINNAMON AIR FRESH 226G",
+    "unit": "226 g",
+    "price_cad": 2.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/air-wick-aple-cinnamon-air-fresh-226g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23564/awaplecinnamonairfresh226g.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23595,
+    "name": "BAJAJ ALMOND DROPS",
+    "unit": "200 ML",
+    "price_cad": 7.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/bajaj-almond-drops-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23595/bajajalmonddrops200ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23596,
+    "name": "BAJAJ ALMOND DROPS",
+    "unit": "300 ML",
+    "price_cad": 8.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/bajajalmonddrops",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23596/bajajalmonddrops300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23597,
+    "name": "BAJAJ ALMOND HAIR OIL",
+    "unit": "300 ML",
+    "price_cad": 9.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/bajaj-almond-hair-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23597/bajajbrahmiamlahairoil.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23598,
+    "name": "BAJAJ BRAHMI AMLA HAIR OIL",
+    "unit": "200 ML",
+    "price_cad": 5.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/bajaj-brahmi-amla-hair-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23598/bajajbrahmiamlahairoil1.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23599,
+    "name": "BAJAJ BRAHMI AMLA HAIR OIL1",
+    "unit": "ML",
+    "price_cad": 6.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/bajaj-brahmi-amla-hair-oil1",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23599/bellscastoroil200ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23626,
+    "name": "CLOROX DISINFECT. WIPE 35 SHET",
+    "unit": null,
+    "price_cad": 4.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/clorox-disinfect-wipe-35-shet",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23626/cloroxdisinfectwipe35shet.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23647,
+    "name": "COMET BLEACH 400G",
+    "unit": "400 GM",
+    "price_cad": 2.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/comet-bleach-400g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23647/3rYkjfRP7ljbQubYJMm7WZlzjVOq18ALEQpbNGEy.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23662,
+    "name": "DABUR ALMOND HAIR OIL",
+    "unit": "200 ML",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-almond-hair-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23662/daburalmondhairoil200ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23663,
+    "name": "DABUR ALMOND HAIR OIL",
+    "unit": "200 ML",
+    "price_cad": 6.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/daburalmondhairoil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23663/daburalmondhairoil200ml1.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23665,
+    "name": "DABUR ALMOND HAIR OIL",
+    "unit": "250 ML",
+    "price_cad": 5.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur_almond_hair_oil_",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23665/daburalmondhairoil250ml1.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23666,
+    "name": "DABUR ALMOND HAIR OIL",
+    "unit": "250 ML",
+    "price_cad": 5.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur_almond_hair_oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23666/daburalmondhairoil250ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23667,
+    "name": "DABUR AMLA HAIR OIL",
+    "unit": "200 ML",
+    "price_cad": 5.29,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-amla-hair-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23667/daburamlahairoil.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23668,
+    "name": "DABUR AMLA HAIR OIL",
+    "unit": "300 ML",
+    "price_cad": 7.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/daburamlahairoil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23668/daburamlahairoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23669,
+    "name": "DABUR AMLA HAIR OIL",
+    "unit": "500 ML",
+    "price_cad": 9.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-amla-hair-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23669/daburamlahairoil500ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23670,
+    "name": "DABUR AMLA JASMINE OIL",
+    "unit": "500 ML",
+    "price_cad": 6.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-amla-jasmine-oil1",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23670/daburamlajasmineoil.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23671,
+    "name": "DABUR AMLA JASMINE OIL",
+    "unit": "200 ML",
+    "price_cad": 4.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-amla-jasmine-oil",
+    "image_url": "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23677,
+    "name": "DABUR MAHABHRINGRAJ OIL",
+    "unit": "ML",
+    "price_cad": 6.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-mahabhringraj-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23677/daburmahabhringrajoil.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23682,
+    "name": "DABUR SARSO AMLA OIL",
+    "unit": "500 ML",
+    "price_cad": 8.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-sarso-amla-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23682/dabursarsoamlaoil500ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23684,
+    "name": "DABUR VATIKA COCONUT OIL",
+    "unit": "300 ML",
+    "price_cad": 8.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/dabur-vatika-coconut-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23684/daburvatikacoconutoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23730,
+    "name": "EASY OFF OVEN FUME FREE",
+    "unit": "400 ML",
+    "price_cad": 8.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/easy-off-oven-fume-free-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23730/easyoffovenfumefree400ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23732,
+    "name": "EASYOF GLASS TOP CLEANER",
+    "unit": "250 ML",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/easyof-glass-top-cleaner-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23732/easyofglasstopcleaner250ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23760,
+    "name": "GL FREEZER 30 BAGS W TWIST TIE",
+    "unit": "PACK",
+    "price_cad": 1.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/gl-freezer-30-bags-w-twist-tie",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23760/glfreezer30bagswtwisttie.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23761,
+    "name": "GLAD LARGE GARBAGE BAGS 30 SACHETS",
+    "unit": "KG",
+    "price_cad": 16.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/glad-large-garbage-bags-30-sachets",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23761/gladlargegarbagebags30sachets.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23799,
+    "name": "HAIR&CARE WALNUT&ALMONDOIL",
+    "unit": "ML",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/haircare-walnutalmondoil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23799/haircarewalnutalmondoil.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23885,
+    "name": "INDULEKHA BRINGHA OIL",
+    "unit": "PCS",
+    "price_cad": 9.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/indulekha-bringha-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23885/indulekhabringhaoil.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23899,
+    "name": "KEO KARPIN HAIR OIL",
+    "unit": "200 ML",
+    "price_cad": 3.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/keokarpinhairoil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23899/keokarpinhairoil200ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23900,
+    "name": "KEO KARPIN HAIR OIL",
+    "unit": "300 ML",
+    "price_cad": 5.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/keo_karpin_hair_oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23900/keokarpinhairoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23901,
+    "name": "KEO KARPIN HAIR OIL",
+    "unit": "500 ML",
+    "price_cad": 7.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/keo-karpin-hair-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23901/keokarpinhairoil500ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23902,
+    "name": "KEO KARPIN OIL",
+    "unit": "300 ML",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/keo-karpin-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23902/keokarpinoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 23985,
+    "name": "LINDA SOAP 75G",
+    "unit": "g",
+    "price_cad": 1.49,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/linda-soap-75g",
+    "image_url": "https://afcgrocery.com/cache/medium/product/23985/lirilsoap75g.jpeg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24005,
+    "name": "MURPH MULTIUSE WOOD CLEAN",
+    "unit": "650 ML",
+    "price_cad": 4.79,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/murph-multiuse-wood-clean",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24005/murphmultiusewoodclean650ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24128,
+    "name": "PARACHUTE ADV.BODY LOTION",
+    "unit": "250 ML",
+    "price_cad": 3.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-advbody-lotion",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24128/parachuteadvbodylotion250ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24129,
+    "name": "PARACHUTE ADVANSED HOTOIL",
+    "unit": "300 ML",
+    "price_cad": 6.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-advansed-hotoil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24129/parachuteadvansedhotoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24130,
+    "name": "PARACHUTE ADVJASMINE OIL",
+    "unit": "300 ML",
+    "price_cad": 3.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-advjasmine-oil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24130/parachuteadvjasmineoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24134,
+    "name": "PARACHUTE COCONUT OIL 1L",
+    "unit": "LTR",
+    "price_cad": 12.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-coconut-oil-1l",
+    "image_url": "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24136,
+    "name": "PARACHUTE COCONUT OIL",
+    "unit": "250 ML",
+    "price_cad": 8.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachutecoconutoil-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24136/parachutecoconutoil250ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24137,
+    "name": "PARACHUTE COCONUT OIL",
+    "unit": "500 ML",
+    "price_cad": 8.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachutecoconutoil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24137/parachutecoconutoil500ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24140,
+    "name": "PARACHUTE GOLDT&STRONG",
+    "unit": "500 ML",
+    "price_cad": 11.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-goldtstrong-",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24140/parachutegoldtstrong500ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24141,
+    "name": "PARACHUTE HAIR OIL",
+    "unit": "500 ML",
+    "price_cad": 8.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-hair-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24141/parachutehairoil500ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  },
+  {
+    "id": 24142,
+    "name": "PARACHUTE AYURVEDIC HAIR OIL",
+    "unit": "300 ML",
+    "price_cad": 5.99,
+    "special_price_cad": 0.0,
+    "in_stock": true,
+    "order_limit": 100,
+    "product_url": "https://afcgrocery.com/parachute-ayurvedic-hair-oil",
+    "image_url": "https://afcgrocery.com/cache/medium/product/24142/parachuteayurvedichairoil300ml.jpg",
+    "collections": [
+      "catalog"
+    ]
+  }
+]

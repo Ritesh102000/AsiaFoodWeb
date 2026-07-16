@@ -1,0 +1,156 @@
+{
+  "facts": [
+    {
+      "topic": "about",
+      "answer": "Asian Food Centre describes itself as a one-stop shop for grocery, meat, sweets, and takeaway needs, with fresh produce, fresh and marinated meat, and groceries from many brands.",
+      "source_urls": [
+        "https://afcgrocery.com/about-us"
+      ]
+    },
+    {
+      "topic": "assortment",
+      "answer": "The site highlights fruits, vegetables, dairy, rice, flour, daal, spices, pickles, frozen food, housewares, herbal products, meat, sweets, and takeaway food.",
+      "source_urls": [
+        "https://afcgrocery.com/about-us"
+      ]
+    },
+    {
+      "topic": "specials",
+      "answer": "The brand invites customers to check weekly in-store specials; the website also has New Products, On Sale, Best Sellers, and Monthly Flyer links.",
+      "source_urls": [
+        "https://afcgrocery.com",
+        "https://afcgrocery.com/about-us",
+        "https://afcgrocery.com/monthlyflyer"
+      ]
+    },
+    {
+      "topic": "delivery",
+      "answer": "The homepage advertises free delivery for orders over CAD 99. The dedicated delivery page currently says 'Coming Soon', so delivery area, timing, and eligibility should be confirmed with the store.",
+      "source_urls": [
+        "https://afcgrocery.com",
+        "https://afcgrocery.com/delivery"
+      ]
+    },
+    {
+      "topic": "pickup",
+      "answer": "The homepage advertises online-order pickup. The dedicated curbside-pickup page currently says 'Coming Soon', so pickup instructions should be confirmed with the selected store.",
+      "source_urls": [
+        "https://afcgrocery.com",
+        "https://afcgrocery.com/curbside-pickup"
+      ]
+    },
+    {
+      "topic": "locations",
+      "answer": "The website lists eight stores: one in Etobicoke, six in Brampton, and one in Mississauga.",
+      "source_urls": [
+        "https://afcgrocery.com/locations"
+      ]
+    },
+    {
+      "topic": "returns",
+      "answer": "Sale and gift/voucher-card purchases are final sale. Opened or tampered items cannot be returned. Perishable goods, produce, and hot foods cannot be returned; customers should ask store management about specific cases.",
+      "source_urls": [
+        "https://afcgrocery.com/return-policy"
+      ]
+    },
+    {
+      "topic": "product_availability",
+      "answer": "Catalog availability and prices can change. Confirm against the live store before checkout.",
+      "source_urls": [
+        "https://afcgrocery.com",
+        "https://afcgrocery.com/disclaimers"
+      ]
+    },
+    {
+      "topic": "contact",
+      "answer": "Call +1 416-740-3262 or email info@afcgrocery.com.",
+      "source_urls": [
+        "https://afcgrocery.com"
+      ]
+    },
+    {
+      "topic": "customer_accounts",
+      "answer": "The site supports customer registration and login, favourites/wishlist, profile access, and order history.",
+      "source_urls": [
+        "https://afcgrocery.com",
+        "https://afcgrocery.com/customer/login",
+        "https://afcgrocery.com/customer/register"
+      ]
+    },
+    {
+      "topic": "book_a_time",
+      "answer": "The site displays a Book A Time feature, but opening it while signed out redirects to customer login.",
+      "source_urls": [
+        "https://afcgrocery.com/book-a-time"
+      ]
+    },
+    {
+      "topic": "careers",
+      "answer": "The site accepts online applications for Cashier, General Labour, Restaurant, Meat Shop, Customer Service, and Other positions. Applicants provide availability and upload a PDF or DOC resume up to 300 KB.",
+      "source_urls": [
+        "https://afcgrocery.com/career"
+      ]
+    },
+    {
+      "topic": "mobile_apps",
+      "answer": "App Store and Play Store badges appear on the site, but their links are placeholders rather than active store destinations.",
+      "source_urls": [
+        "https://afcgrocery.com"
+      ]
+    },
+    {
+      "topic": "social_media",
+      "answer": "Facebook and Twitter icons appear on the site, but their links are placeholders rather than active profile destinations.",
+      "source_urls": [
+        "https://afcgrocery.com"
+      ]
+    },
+    {
+      "topic": "covid_pages",
+      "answer": "The COVID-19 Response and COVID-19 Delivery pages currently say 'Coming Soon' and should not be treated as current operational guidance.",
+      "source_urls": [
+        "https://afcgrocery.com/covid-19-response",
+        "https://afcgrocery.com/covid-19-delivery"
+      ]
+    },
+    {
+      "topic": "terms",
+      "answer": "Using Asian Food Centre services indicates acceptance of its terms, and the site states that terms may change without notice.",
+      "source_urls": [
+        "https://afcgrocery.com/terms-of-use",
+        "https://afcgrocery.com/terms-conditions"
+      ]
+    },
+    {
+      "topic": "service_disclaimer",
+      "answer": "The site says information is believed accurate when posted but is not guaranteed at all times; services are provided as-is and third-party links are used at the visitor's own risk.",
+      "source_urls": [
+        "https://afcgrocery.com/disclaimers"
+      ]
+    },
+    {
+      "topic": "termination",
+      "answer": "The terms state that Asian Food Centre may terminate or limit access to services, including for terms or intellectual-property violations.",
+      "source_urls": [
+        "https://afcgrocery.com/termination"
+      ]
+    },
+    {
+      "topic": "legal_liability",
+      "answer": "The site includes indemnity and limitation-of-liability terms covering use of its services, third-party links, errors, delays, and circumstances outside its control.",
+      "source_urls": [
+        "https://afcgrocery.com/indemnity",
+        "https://afcgrocery.com/limitation-on-liability"
+      ]
+    }
+  ],
+  "bot_guardrails": [
+    "Treat prices and stock as a snapshot, not a guarantee.",
+    "Do not promise delivery coverage or timing when the site does not specify it.",
+    "For returns involving perishables, opened products, or unusual circumstances, refer the customer to store management.",
+    "When a location-specific answer is needed, ask which store the customer means.",
+    "Do not present placeholder app-store or social links as working destinations.",
+    "Do not treat the site's COVID pages as current guidance because their content is only 'Coming Soon'."
+  ],
+  "fetched_at": "2026-07-16T10:11:02.221496+00:00"
+}

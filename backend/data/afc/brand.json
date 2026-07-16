@@ -1,0 +1,26 @@
+{
+  "brand_name": "Asian Food Centre",
+  "website": "https://afcgrocery.com",
+  "tagline": "A one-stop shop for South Asian grocery, meat, sweets, and takeaway needs.",
+  "positioning": [
+    "South Asian and Desi grocery selection",
+    "Fresh produce plus fresh and marinated meat",
+    "Extensive variety at competitively low prices",
+    "Weekly in-store specials"
+  ],
+  "mission": "Provide a one-stop shop covering Desi needs with premium grocery service, fresh ingredients, quality food, and reasonable low prices.",
+  "goal": "Provide quality, extensive variety, and a clean, spacious one-stop shopping experience for South Asian needs at competitively low prices.",
+  "contact": {
+    "phone": "+1 416-740-3262",
+    "email": "info@afcgrocery.com",
+    "head_office": "10 Westmore Dr, Etobicoke, ON M9V 3Z7"
+  },
+  "service_promises_shown_on_homepage": [
+    "Free delivery on orders over CAD 99",
+    "Eight locations",
+    "Online order pickup"
+  ],
+  "logo_url": "https://afcgrocery.com/themes/asianfood/images/asian-food-centre-logo.jpg",
+  "source_url": "https://afcgrocery.com",
+  "fetched_at": "2026-07-16T10:11:02.221496+00:00"
+}

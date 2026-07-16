@@ -1,0 +1,5 @@
+tests
+evals
+Dockerfile
+**/__pycache__
+**/*.pyc

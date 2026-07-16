@@ -1,0 +1,12 @@
+.git
+.next
+.venv
+.env
+.env.local
+.wrangler
+dist
+node_modules
+**/__pycache__
+**/*.pyc
+backend/tests
+backend/evals

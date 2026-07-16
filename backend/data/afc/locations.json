@@ -1,0 +1,75 @@
+[
+  {
+    "city": "Etobicoke",
+    "address": "10 Westmore Drive, Etobicoke, ON",
+    "phone": "416-740-3262",
+    "fax": [
+      "416-745-8288",
+      "416-642-0874"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Brampton",
+    "address": "80 Pertosa Drive, Unit 21-22, Brampton, ON",
+    "phone": "905-460-0009",
+    "fax": [
+      "905-790-0030"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Brampton",
+    "address": "10 Pannahill Drive, Brampton, ON",
+    "phone": "905-913-8018",
+    "fax": [
+      "905-913-8016"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Brampton",
+    "address": "2120 North Park Drive, Unit 6, Brampton, ON",
+    "phone": "905-793-1338",
+    "fax": [
+      "905-793-1517"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Brampton",
+    "address": "40 Lacoste Blvd, Unit 23-24, Brampton, ON",
+    "phone": "905-794-8109",
+    "fax": [
+      "905-794-4927"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Brampton",
+    "address": "10510 Torbram Road, Brampton, ON",
+    "phone": "905-790-0030",
+    "fax": [
+      "905-790-0031"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Brampton",
+    "address": "621 Wanless Drive, Unit 1-2, Brampton, ON",
+    "phone": "905-495-3336",
+    "fax": [
+      "905-495-7770"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  },
+  {
+    "city": "Mississauga",
+    "address": "1075 Ceremonial Dr, Mississauga, ON L5R 2Z4",
+    "phone": "905-502-1600",
+    "fax": [
+      "905-502-1600"
+    ],
+    "source_url": "https://afcgrocery.com/locations"
+  }
+]
