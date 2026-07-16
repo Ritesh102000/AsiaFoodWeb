@@ -5,6 +5,7 @@ dist
 .vercel
 .env
 .env.local
+.env.vercel.import
 __pycache__
 .pytest_cache
 .venv
