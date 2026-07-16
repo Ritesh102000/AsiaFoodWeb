@@ -1,6 +1,11 @@
 "use client";
 
 import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import {
+  ArrowRight, Bot, Check, ChevronRight, CircleHelp, Headphones,
+  MapPin, Menu, Minus, PackageCheck, Plus, Search, Send,
+  ShoppingBag, Sparkles, Store, Truck, X, type LucideIcon,
+} from "lucide-react";
 import productsData from "@/backend/data/afc/products.json";
 import categoriesData from "@/backend/data/afc/categories.json";
 import locationsData from "@/backend/data/afc/locations.json";
@@ -28,99 +33,126 @@ function useCart() {
     try { setCart(JSON.parse(localStorage.getItem("afc-demo-cart") || "[]")); } catch { setCart([]); }
   }, []);
   useEffect(() => { localStorage.setItem("afc-demo-cart", JSON.stringify(cart)); }, [cart]);
-  const add = (product: Product) => setCart(current => {
-    const existing = current.find(line => line.product.id === product.id);
-    return existing
-      ? current.map(line => line.product.id === product.id ? { ...line, quantity: Math.min(line.quantity + 1, product.order_limit || 20) } : line)
-      : [...current, { product, quantity: 1 }];
-  });
-  const update = (id: number, quantity: number) => setCart(current => current.flatMap(line => line.product.id === id ? (quantity > 0 ? [{ ...line, quantity }] : []) : [line]));
+  const add = (product: Product) => {
+    setCart(current => {
+      const existing = current.find(line => line.product.id === product.id);
+      return existing
+        ? current.map(line => line.product.id === product.id ? { ...line, quantity: Math.min(line.quantity + 1, product.order_limit || 20) } : line)
+        : [...current, { product, quantity: 1 }];
+    });
+    window.dispatchEvent(new CustomEvent("afc-cart-added", { detail: product.name }));
+  };
+  const update = (id: number, quantity: number) => setCart(current => current.flatMap(line => line.product.id === id ? (quantity > 0 ? [{ ...line, quantity: Math.min(quantity, line.product.order_limit || 20) }] : []) : [line]));
   return { cart, add, update, clear: () => setCart([]), count: cart.reduce((sum, line) => sum + line.quantity, 0), subtotal: cart.reduce((sum, line) => sum + line.product.price_cad * line.quantity, 0) };
 }
 
-function Icon({ name }: { name: "search" | "cart" | "spark" | "arrow" | "pin" | "close" | "send" | "menu" }) {
-  const glyphs = { search: "⌕", cart: "▱", spark: "✦", arrow: "→", pin: "●", close: "×", send: "↑", menu: "≡" };
-  return <span aria-hidden="true">{glyphs[name]}</span>;
+type IconName = "search" | "cart" | "spark" | "arrow" | "pin" | "close" | "send" | "menu";
+function Icon({ name, size = 18 }: { name: IconName; size?: number }) {
+  const icons: Record<IconName, LucideIcon> = { search: Search, cart: ShoppingBag, spark: Sparkles, arrow: ArrowRight, pin: MapPin, close: X, send: Send, menu: Menu };
+  const Glyph = icons[name];
+  return <Glyph aria-hidden="true" size={size} strokeWidth={2} />;
 }
 
 function Header({ count, onCart }: { count: number; onCart: () => void }) {
   const [mobile, setMobile] = useState(false);
   return <>
-    <div className="announcement"><span>Free delivery on orders over $99</span><span>8 locations across the GTA</span><span>Call (416) 740-3262</span></div>
+    <a className="skip-link" href="#main-content">Skip to content</a>
+    <div className="announcement"><span><Truck size={13} /> Free delivery on orders over $99</span><span><Store size={13} /> 8 locations across the GTA</span><span><Headphones size={13} /> Local help: (416) 740-3262</span></div>
     <header className="site-header">
       <a className="brand" href="/" aria-label="Asian Food Centre home"><img src={LOGO} alt="Asian Food Centre" /></a>
-      <nav className={mobile ? "nav open" : "nav"} aria-label="Main navigation">
-        <a href="/shop">Shop</a><a href="/shop?collection=new">New</a><a href="/shop?collection=best_seller">Best sellers</a><a href="/locations">Locations</a><a href="/policies">Help</a>
+      <nav className={mobile ? "nav open" : "nav"} aria-label="Main navigation" onClick={() => setMobile(false)}>
+        <a href="/shop">Shop all</a><a href="/shop?collection=new">New arrivals</a><a href="/shop?collection=best_seller">Best sellers</a><a href="/locations">Stores</a><a href="/policies">Help</a>
+        <button className="nav-assistant" onClick={() => window.dispatchEvent(new Event("open-afc-chat"))}><Sparkles size={15} /> Ask AFC</button>
       </nav>
       <div className="header-actions">
         <a className="circle-button" href="/shop" aria-label="Search products"><Icon name="search" /></a>
-        <button className="cart-button" onClick={onCart} aria-label={`Open cart with ${count} items`}><Icon name="cart" /><span>Cart</span><b>{count}</b></button>
-        <button className="mobile-menu" onClick={() => setMobile(!mobile)} aria-label="Toggle menu"><Icon name="menu" /></button>
+        <button className="cart-button" onClick={onCart} aria-label={`Open cart with ${count} items`}><Icon name="cart" /><span>Basket</span><b>{count}</b></button>
+        <button className="mobile-menu" onClick={() => setMobile(!mobile)} aria-label="Toggle menu" aria-expanded={mobile}><Icon name={mobile ? "close" : "menu"} /></button>
       </div>
     </header>
   </>;
 }
 
 function ProductCard({ product, add }: { product: Product; add: (product: Product) => void }) {
+  const price = Number(product.special_price_cad) > 0 ? Number(product.special_price_cad) : Number(product.price_cad);
+  const hasSale = Number(product.special_price_cad) > 0 && Number(product.special_price_cad) < Number(product.price_cad);
   return <article className="product-card">
     <a className="product-image-wrap" href={`/product/${product.id}`}>
       <img className="product-image" src={product.image_url} alt={product.name} loading="lazy" onError={event => { event.currentTarget.src = "https://afcgrocery.com/themes/asianfood/images/products/place_holder.png"; }} />
-      {product.collections.includes("new") && <span className="badge coral">New</span>}
+      {hasSale ? <span className="badge coral">Special</span> : product.collections.includes("new") && <span className="badge coral">New</span>}
       {!product.in_stock && <span className="badge dark">Out of stock</span>}
+      <span className="product-view">View product <ChevronRight size={14} /></span>
     </a>
-    <div className="product-copy"><p className="eyebrow">{product.unit || "Unit not listed"}</p><a href={`/product/${product.id}`}><h3>{product.name}</h3></a><div className="price-row"><strong>{money.format(product.price_cad)}</strong><button onClick={() => add(product)} disabled={!product.in_stock} aria-label={`Add ${product.name} to cart`}>+</button></div></div>
+    <div className="product-copy"><p className="eyebrow">{product.unit || "Unit not listed"}</p><a href={`/product/${product.id}`}><h3>{product.name}</h3></a><div className="price-row"><div>{price > 0 ? <><strong>{money.format(price)}</strong>{hasSale && <del>{money.format(product.price_cad)}</del>}</> : <strong className="check-price">Check price</strong>}</div><button onClick={() => add(product)} disabled={!product.in_stock || price <= 0} aria-label={price > 0 ? `Add ${product.name} to cart` : `Price unavailable for ${product.name}`}><Plus size={17} /><span>{price > 0 ? "Add" : "N/A"}</span></button></div></div>
   </article>;
 }
 
 function CartDrawer({ open, close, cart, update, subtotal }: { open: boolean; close: () => void; cart: CartLine[]; update: (id: number, quantity: number) => void; subtotal: number }) {
+  const deliveryRemaining = Math.max(0, 99 - subtotal);
   return <div className={open ? "drawer-layer visible" : "drawer-layer"} aria-hidden={!open}>
     <button className="drawer-scrim" onClick={close} aria-label="Close cart" />
-    <aside className="cart-drawer" aria-label="Shopping cart">
-      <div className="drawer-head"><div><p className="eyebrow">Your basket</p><h2>{cart.length ? `${cart.length} fresh picks` : "Your cart is empty"}</h2></div><button className="circle-button" onClick={close}><Icon name="close" /></button></div>
-      <div className="cart-lines">{cart.map(line => <div className="cart-line" key={line.product.id}><img src={line.product.image_url} alt="" /><div><h3>{line.product.name}</h3><p>{line.product.unit} · {money.format(line.product.price_cad)}</p><div className="stepper"><button onClick={() => update(line.product.id, line.quantity - 1)}>−</button><span>{line.quantity}</span><button onClick={() => update(line.product.id, line.quantity + 1)}>+</button></div></div><strong>{money.format(line.product.price_cad * line.quantity)}</strong></div>)}</div>
+    <aside className="cart-drawer" aria-label="Shopping cart" role="dialog" aria-modal="true">
+      <div className="drawer-head"><div><p className="eyebrow">Your basket</p><h2>{cart.length ? `${cart.length} fresh picks` : "Your cart is empty"}</h2></div><button className="circle-button" onClick={close} aria-label="Close cart"><Icon name="close" /></button></div>
+      {!!cart.length && <div className="delivery-meter"><div><Truck size={16} /><span>{deliveryRemaining ? `${money.format(deliveryRemaining)} away from free delivery` : "You unlocked free delivery"}</span></div><i><b style={{ width: `${Math.min(100, subtotal / 99 * 100)}%` }} /></i></div>}
+      <div className="cart-lines">{cart.map(line => <div className="cart-line" key={line.product.id}><img src={line.product.image_url} alt="" /><div><h3>{line.product.name}</h3><p>{line.product.unit} · {money.format(line.product.price_cad)}</p><div className="stepper"><button onClick={() => update(line.product.id, line.quantity - 1)} aria-label={`Decrease ${line.product.name}`}><Minus size={13} /></button><span>{line.quantity}</span><button onClick={() => update(line.product.id, line.quantity + 1)} aria-label={`Increase ${line.product.name}`}><Plus size={13} /></button></div></div><strong>{money.format(line.product.price_cad * line.quantity)}</strong></div>)}</div>
       <div className="drawer-foot"><div><span>Subtotal</span><strong>{money.format(subtotal)}</strong></div><p>Demo only — no real order or payment will be created.</p><a className={cart.length ? "primary-button" : "primary-button disabled"} href={cart.length ? "/cart" : "/shop"}>{cart.length ? "Review cart" : "Start shopping"}<Icon name="arrow" /></a></div>
     </aside>
   </div>;
 }
 
 function Home({ add }: { add: (product: Product) => void }) {
-  const featured = productsData.filter(product => product.collections.includes("featured")).slice(0, 8);
-  const best = productsData.filter(product => product.collections.includes("best_seller")).slice(0, 8);
+  const usable = (product: Product) => Number(product.price_cad) > 0 && !product.image_url.includes("place_holder");
+  const featured = productsData.filter(product => product.collections.includes("featured") && usable(product)).slice(0, 8);
+  const best = productsData.filter(product => product.collections.includes("best_seller") && usable(product)).slice(0, 8);
+  const heroProducts = [27803, 27580, 34126].map(id => productsData.find(product => product.id === id)).filter(Boolean) as Product[];
   return <main>
     <section className="hero">
-      <div className="hero-image" style={{ backgroundImage: `linear-gradient(90deg, rgba(5,55,29,.94), rgba(0,122,55,.70) 48%, rgba(0,0,0,.12)), url("${HERO}")` }} />
-      <div className="hero-content"><p className="kicker"><Icon name="spark" /> Your neighbourhood Desi market</p><h1>Fresh finds.<br /><em>Familiar flavours.</em></h1><p>Everything for tonight’s table, from crisp produce and pantry staples to halal meats and family favourites.</p><div className="hero-actions"><a className="primary-button light" href="/shop">Shop the collection <Icon name="arrow" /></a><button className="text-button" onClick={() => window.dispatchEvent(new Event("open-afc-chat"))}>Ask AFC Assistant <Icon name="spark" /></button></div><div className="hero-proof"><span><b>508</b> categories</span><span><b>100</b> demo products</span><span><b>8</b> local stores</span></div></div>
+      <div className="hero-glow" /><div className="hero-pattern" />
+      <div className="hero-grid">
+        <div className="hero-content"><p className="kicker"><Sparkles size={16} /> Your neighbourhood Desi market</p><h1>Home tastes<br /><em>better here.</em></h1><p>Fresh produce, pantry favourites, halal meats and the brands your family knows—together in one joyful place.</p><div className="hero-actions"><a className="primary-button light" href="/shop">Explore groceries <ArrowRight size={18} /></a><button className="text-button" onClick={() => window.dispatchEvent(new Event("open-afc-chat"))}><Bot size={18} /> Ask the AFC Assistant</button></div><div className="popular-searches"><span>Popular:</span><a href="/shop?q=tea">Tea</a><a href="/shop?q=rice">Rice</a><a href="/shop?q=pickle">Pickles</a><a href="/shop?q=juice">Juice</a></div><div className="hero-proof"><span><b>508</b> categories</span><span><b>100</b> curated products</span><span><b>8</b> GTA stores</span></div></div>
+        <div className="hero-stage" aria-label="Featured AFC products">
+          <div className="hero-photo" style={{ backgroundImage: `url("${HERO}")` }} />
+          <div className="stage-caption"><span>Fresh this week</span><strong>Flavours worth sharing</strong></div>
+          {heroProducts.map((product, index) => <a href={`/product/${product.id}`} className={`floating-product floating-product-${index + 1}`} key={product.id}><span><img src={product.image_url} alt={product.name} /></span><small>{product.name}</small><b>{money.format(product.price_cad)}</b></a>)}
+          <button className="assistant-orb" onClick={() => window.dispatchEvent(new Event("open-afc-chat"))} aria-label="Open AFC Assistant"><span><Bot size={22} /></span><b>Need a hand?</b><small>Ask about products + policies</small></button>
+        </div>
+      </div>
     </section>
-    <section className="category-strip section-pad"><div className="section-heading"><div><p className="eyebrow">Shop your way</p><h2>Pantry to plate</h2></div><a href="/shop">Browse all <Icon name="arrow" /></a></div><div className="category-grid">{categoriesData.slice(0, 10).map(category => <a href={`/shop?category=${category.slug}`} className="category-card" key={category.id}>{category.image_url ? <img src={category.image_url} alt="" /> : <span>{category.name.charAt(0)}</span>}<strong>{category.name}</strong><small>{category.children.length ? `${category.children.length} sections` : "Explore"}</small></a>)}</div></section>
-    <section className="service-band"><div><span>01</span><h3>Free delivery</h3><p>On orders over $99</p></div><div><span>02</span><h3>Online pickup</h3><p>Choose your closest AFC</p></div><div><span>03</span><h3>Local support</h3><p>Eight stores to serve you</p></div></section>
+    <section className="category-strip section-pad"><div className="section-heading"><div><p className="eyebrow">Shop your way</p><h2>From pantry to plate</h2><p>Explore the aisles your family comes back to.</p></div><a href="/shop">Browse all departments <ArrowRight size={17} /></a></div><div className="category-grid">{categoriesData.slice(0, 8).map((category, index) => <a href={`/shop?category=${category.slug}`} className="category-card" style={{ animationDelay: `${index * 55}ms` }} key={category.id}>{category.image_url ? <img src={category.image_url} alt="" /> : <span>{category.name.charAt(0)}</span>}<strong>{category.name}</strong><small>{category.children.length ? `${category.children.length} collections` : "Explore aisle"}</small><i><ChevronRight size={14} /></i></a>)}</div></section>
+    <section className="service-band"><div><span><Truck /></span><h3>Free delivery over $99</h3><p>More groceries, no delivery fee</p></div><div><span><PackageCheck /></span><h3>Easy store pickup</h3><p>Choose your closest AFC location</p></div><div><span><Headphones /></span><h3>People nearby to help</h3><p>Eight local stores across the GTA</p></div></section>
     <ProductSection title="Fresh arrivals" eyebrow="New & noteworthy" products={featured} add={add} />
+    <section className="ai-showcase section-pad">
+      <div className="ai-showcase-copy"><p className="kicker"><Bot size={17} /> Meet your new shopping sidekick</p><h2>One question.<br />Two trusted sources.</h2><p>The AFC Assistant understands compound questions, checks live catalog facts in PostgreSQL, and combines them with policy answers from the knowledge base.</p><div className="source-truths"><div><span><PackageCheck size={19} /></span><p><b>Product database</b><small>Prices, stock, sizes and collections</small></p></div><div><span><CircleHelp size={19} /></span><p><b>AFC knowledge base</b><small>Policies, delivery, pickup and locations</small></p></div></div><button className="primary-button light" onClick={() => window.dispatchEvent(new Event("open-afc-chat"))}>Try the assistant <Sparkles size={17} /></button></div>
+      <div className="ai-demo"><div className="ai-demo-head"><span><Bot size={19} /></span><div><b>AFC Assistant</b><small><i /> Connected to verified sources</small></div><em>AI</em></div><div className="user-bubble">Which drinks are under $5, and can sale items be returned?</div><div className="answer-bubble"><span className="answer-spark"><Sparkles size={16} /></span><div><p>I found drinks under $5 in the current catalog. For returns, AFC’s published policy should be confirmed with the store for sale-item exceptions.</p><div className="answer-products"><span><img src={productsData.find(product => product.id === 27580)?.image_url} alt="Limca Indian" /><b>Limca Indian</b><small>$1.99</small></span><span><img src={productsData.find(product => product.id === 26644)?.image_url || productsData[3].image_url} alt="Suggested drink" /><b>More matches</b><small>View products →</small></span></div><div className="answer-sources"><span><Check size={13} /> Catalog</span><span><Check size={13} /> Returns policy</span></div></div></div></div>
+    </section>
     <section className="story section-pad"><div className="story-card"><p className="kicker">The AFC promise</p><h2>A bigger table starts with better choices.</h2><p>Asian Food Centre brings produce, groceries, meat, sweets and takeaway favourites together under one roof—extensive variety, fair prices and the flavours that feel like home.</p><a className="text-link" href="/locations">Find your nearest store <Icon name="arrow" /></a></div><div className="story-numbers"><div><b>6</b><span>Brampton stores</span></div><div><b>1</b><span>Etobicoke store</span></div><div><b>1</b><span>Mississauga store</span></div></div></section>
     <ProductSection title="Everyday favourites" eyebrow="What shoppers love" products={best} add={add} tone="soft" />
   </main>;
 }
 
 function ProductSection({ title, eyebrow, products, add, tone = "white" }: { title: string; eyebrow: string; products: Product[]; add: (product: Product) => void; tone?: string }) {
-  return <section className={`product-section section-pad ${tone}`}><div className="section-heading"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2></div><a href="/shop">View all <Icon name="arrow" /></a></div><div className="products-grid">{products.map(product => <ProductCard product={product} add={add} key={product.id} />)}</div></section>;
+  return <section className={`product-section section-pad ${tone}`}><div className="section-heading"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2><p>Handpicked from the current AFC catalog.</p></div><a href="/shop">View all products <ArrowRight size={17} /></a></div><div className="products-grid">{products.map(product => <ProductCard product={product} add={add} key={product.id} />)}</div></section>;
 }
 
 function Shop({ add }: { add: (product: Product) => void }) {
-  const [query, setQuery] = useState(""); const [stock, setStock] = useState(false); const [sort, setSort] = useState("featured");
-  useEffect(() => { const params = new URLSearchParams(location.search); setQuery(params.get("q") || params.get("category")?.replaceAll("-", " ") || ""); }, []);
+  const [query, setQuery] = useState(""); const [collection, setCollection] = useState(""); const [stock, setStock] = useState(false); const [sort, setSort] = useState("featured");
+  useEffect(() => { const params = new URLSearchParams(location.search); setQuery(params.get("q") || params.get("category")?.replaceAll("-", " ") || ""); setCollection(params.get("collection") || ""); }, []);
   const list = useMemo(() => {
-    let result = productsData.filter(product => !query || `${product.name} ${product.unit} ${product.collections.join(" ")}`.toLowerCase().includes(query.toLowerCase())).filter(product => !stock || product.in_stock);
-    if (sort === "low") result = [...result].sort((a, b) => a.price_cad - b.price_cad);
+    let result = productsData.filter(product => !query || `${product.name} ${product.unit} ${product.collections.join(" ")}`.toLowerCase().includes(query.toLowerCase())).filter(product => !collection || product.collections.includes(collection)).filter(product => !stock || product.in_stock);
+    if (sort === "low") result = [...result].sort((a, b) => (a.price_cad || Number.MAX_VALUE) - (b.price_cad || Number.MAX_VALUE));
     if (sort === "high") result = [...result].sort((a, b) => b.price_cad - a.price_cad);
     if (sort === "name") result = [...result].sort((a, b) => a.name.localeCompare(b.name));
     return result;
-  }, [query, stock, sort]);
-  return <main className="page-shell"><section className="page-hero"><p className="kicker">100 products · live prototype</p><h1>Find your favourites</h1><p>Search AFC’s featured, new and bestselling grocery collection.</p></section><section className="catalog-layout section-pad"><aside className="filters"><p className="eyebrow">Browse</p><h2>Departments</h2>{categoriesData.slice(0, 14).map(category => <button key={category.id} onClick={() => setQuery(category.name)}>{category.name}<span>→</span></button>)}</aside><div className="catalog"><div className="catalog-tools"><label className="search-field"><Icon name="search" /><input value={query} onChange={event => setQuery(event.target.value)} placeholder="Search rice, tea, pickles…" /></label><label className="check"><input type="checkbox" checked={stock} onChange={event => setStock(event.target.checked)} /> In stock</label><select value={sort} onChange={event => setSort(event.target.value)} aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name</option></select></div><div className="result-count"><strong>{list.length}</strong> matches {query && <button onClick={() => setQuery("")}>Clear “{query}” ×</button>}</div><div className="products-grid">{list.map(product => <ProductCard key={product.id} product={product} add={add} />)}</div>{!list.length && <div className="empty-state"><span>⌕</span><h2>No exact match</h2><p>Try a broader product name or ask the AFC Assistant.</p></div>}</div></section></main>;
+  }, [query, collection, stock, sort]);
+  return <main className="page-shell"><section className="page-hero"><p className="kicker">100 products · live prototype</p><h1>Find your favourites</h1><p>Search AFC’s featured, new and bestselling grocery collection.</p></section><section className="catalog-layout section-pad"><aside className="filters"><p className="eyebrow">Browse</p><h2>Departments</h2>{categoriesData.slice(0, 14).map(category => <button key={category.id} onClick={() => { setQuery(category.name); setCollection(""); }}>{category.name}<span>→</span></button>)}</aside><div className="catalog"><div className="catalog-tools"><label className="search-field"><Icon name="search" /><input value={query} onChange={event => { setQuery(event.target.value); setCollection(""); }} placeholder="Search rice, tea, pickles…" /></label><label className="check"><input type="checkbox" checked={stock} onChange={event => setStock(event.target.checked)} /> In stock</label><select value={sort} onChange={event => setSort(event.target.value)} aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="name">Name</option></select></div><div className="result-count"><strong>{list.length}</strong> matches {collection && <button onClick={() => setCollection("")}>Clear “{collection.replaceAll("_", " ")}” ×</button>}{query && <button onClick={() => setQuery("")}>Clear “{query}” ×</button>}</div><div className="products-grid">{list.map(product => <ProductCard key={product.id} product={product} add={add} />)}</div>{!list.length && <div className="empty-state"><Search size={54} /><h2>No exact match</h2><p>Try a broader product name or ask the AFC Assistant.</p></div>}</div></section></main>;
 }
 
 function ProductPage({ id, add }: { id: number; add: (product: Product) => void }) {
   const product = productsData.find(item => item.id === id);
   if (!product) return <NotFound />;
-  const related = productsData.filter(item => item.id !== id && item.collections.some(collection => product.collections.includes(collection))).slice(0, 4);
-  return <main className="page-shell"><section className="product-detail section-pad"><div className="product-detail-image"><img src={product.image_url} alt={product.name} /><span className="badge coral">{product.collections[0] || "Catalog"}</span></div><div className="product-detail-copy"><p className="breadcrumbs"><a href="/">Home</a> / <a href="/shop">Shop</a> / {product.name}</p><p className="eyebrow">{product.unit || "Unit not listed"}</p><h1>{product.name}</h1><div className="detail-price">{money.format(product.price_cad)} <span>CAD</span></div><p className={product.in_stock ? "stock yes" : "stock no"}>{product.in_stock ? "● In stock and ready" : "Out of stock"}</p><p className="detail-description">AFC Grocery catalog item. Price and availability are a dated prototype snapshot; confirm against the live store before checkout.</p><button className="primary-button wide" onClick={() => add(product)} disabled={!product.in_stock}>Add to demo cart <span>+</span></button><div className="detail-notes"><div><b>Order limit</b><span>Up to {product.order_limit || 5} per order</span></div><div><b>Store source</b><a href={product.product_url} target="_blank" rel="noreferrer">View original listing ↗</a></div></div></div></section><ProductSection title="You may also like" eyebrow="Keep exploring" products={related} add={add} tone="soft" /></main>;
+  const purchasable = product.in_stock && Number(product.price_cad) > 0;
+  const related = productsData.filter(item => item.id !== id && item.price_cad > 0 && item.collections.some(collection => product.collections.includes(collection))).slice(0, 4);
+  return <main className="page-shell"><section className="product-detail section-pad"><div className="product-detail-image"><img src={product.image_url} alt={product.name} /><span className="badge coral">{product.collections[0] || "Catalog"}</span></div><div className="product-detail-copy"><p className="breadcrumbs"><a href="/">Home</a> / <a href="/shop">Shop</a> / {product.name}</p><p className="eyebrow">{product.unit || "Unit not listed"}</p><h1>{product.name}</h1><div className="detail-price">{product.price_cad > 0 ? <>{money.format(product.price_cad)} <span>CAD</span></> : <>Check current price</>}</div><p className={product.in_stock ? "stock yes" : "stock no"}>{product.in_stock ? "● In stock in the catalog snapshot" : "Out of stock"}</p><p className="detail-description">AFC Grocery catalog item. Price and availability are a dated prototype snapshot; confirm against the live store before checkout.</p><button className="primary-button wide" onClick={() => add(product)} disabled={!purchasable}>{purchasable ? <>Add to demo cart <Plus size={17} /></> : "Price unavailable for demo cart"}</button><div className="detail-notes"><div><b>Order limit</b><span>Up to {product.order_limit || 5} per order</span></div><div><b>Store source</b><a href={product.product_url} target="_blank" rel="noreferrer">View original listing ↗</a></div></div></div></section><ProductSection title="You may also like" eyebrow="Keep exploring" products={related} add={add} tone="soft" /></main>;
 }
 
 function LocationsPage() {
@@ -192,6 +224,21 @@ function ChatWidget() {
 
 function Footer() { return <footer><div className="footer-brand"><img src={LOGO} alt="Asian Food Centre" /><p>Your one-stop shop for South Asian grocery, produce, meat, sweets and takeaway favourites.</p></div><div><p className="eyebrow">Shop</p><a href="/shop">All products</a><a href="/shop?collection=new">New arrivals</a><a href="/shop?collection=best_seller">Best sellers</a></div><div><p className="eyebrow">Visit</p><a href="/locations">Store locations</a><a href="/policies">Policies & help</a><a href="/admin">Knowledge admin</a></div><div><p className="eyebrow">Contact</p><a href="tel:+14167403262">(416) 740-3262</a><a href="mailto:info@afcgrocery.com">info@afcgrocery.com</a><span>10 Westmore Dr, Etobicoke</span></div><p className="footer-note">Prototype for Asian Food Centre · No real orders are created</p></footer>; }
 
+function CartToast() {
+  const [item, setItem] = useState("");
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+    const handler = (event: Event) => {
+      setItem((event as CustomEvent<string>).detail);
+      clearTimeout(timer);
+      timer = setTimeout(() => setItem(""), 2600);
+    };
+    window.addEventListener("afc-cart-added", handler);
+    return () => { clearTimeout(timer); window.removeEventListener("afc-cart-added", handler); };
+  }, []);
+  return <div className={item ? "cart-toast visible" : "cart-toast"} role="status" aria-live="polite"><span><Check size={16} /></span><div><b>Added to your basket</b><small>{item}</small></div></div>;
+}
+
 export default function Storefront({ route }: { route: string[] }) {
   const cartState = useCart(); const [drawer, setDrawer] = useState(false); const page = route[0] || "home";
   let content: React.ReactNode;
@@ -206,5 +253,5 @@ export default function Storefront({ route }: { route: string[] }) {
   else if (page === "admin") content = <AdminPage />;
   else content = <NotFound />;
   const minimal = ["admin", "confirmation"].includes(page);
-  return <><Header count={cartState.count} onCart={() => setDrawer(true)} />{content}{!minimal && <Footer />}<CartDrawer open={drawer} close={() => setDrawer(false)} cart={cartState.cart} update={cartState.update} subtotal={cartState.subtotal} /><ChatWidget /></>;
+  return <><Header count={cartState.count} onCart={() => setDrawer(true)} /><div id="main-content">{content}</div>{!minimal && <Footer />}<CartDrawer open={drawer} close={() => setDrawer(false)} cart={cartState.cart} update={cartState.update} subtotal={cartState.subtotal} /><CartToast /><ChatWidget /></>;
 }
