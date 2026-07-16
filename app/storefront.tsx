@@ -1034,16 +1034,46 @@ function ChatWidget() {
   useEffect(() => { body.current?.scrollTo({ top: body.current.scrollHeight, behavior: "smooth" }); }, [thread, loading, open]);
 
   const localAnswer = (query: string): ChatResult => {
-    const lower = query.toLowerCase(); const max = lower.match(/(?:under|below)\s*\$?(\d+(?:\.\d+)?)/)?.[1];
-    const matchedProducts = productsData.filter(product => (!max || product.price_cad <= Number(max)) && (!lower.includes("stock") || product.in_stock) && lower.split(/\s+/).some(word => word.length > 3 && product.name.toLowerCase().includes(word))).slice(0, 5);
-    const matchedFacts = knowledgeData.facts.filter(fact => lower.split(/\s+/).some(word => word.length > 4 && `${fact.topic} ${fact.answer}`.toLowerCase().includes(word))).slice(0, 3);
-    const lines = [...matchedProducts.map(product => `${product.name} is ${money.format(product.price_cad)} for ${product.unit || "the listed unit"}.`), ...matchedFacts.map(fact => fact.answer)];
+    const lower = query.toLowerCase();
+    const max = lower.match(/(?:under|below|less than|cheaper than)\s*\$?\s*(\d+(?:\.\d+)?)/)?.[1];
+    // Singular/plural stemming plus common Desi-grocery synonyms so "juices",
+    // "wheat" or "chai" still land on catalog and category names.
+    const stem = (word: string) => word.replace(/'s$/, "").replace(/s$/, "");
+    const synonyms: Record<string, string[]> = {
+      wheat: ["atta", "flour"], flour: ["atta"], chai: ["tea"], dahi: ["yogurt", "curd"],
+      drink: ["juice", "soda", "limca"], juice: ["limca", "beverage"], beverage: ["juice", "tea", "coffee"], mithai: ["sweet"],
+      dal: ["daal", "lentil", "pulse"], daal: ["dal", "lentil", "pulse"], veggie: ["vegetable"],
+      chutney: ["pickle", "paste"], masala: ["spice"], ghee: ["oil", "butter"],
+    };
+    const stopWords = new Set(["which", "what", "where", "when", "how", "the", "and", "are", "can", "you", "have", "has", "any", "anything", "available", "much", "many", "doe", "for", "with", "there", "your", "get", "buy", "find", "show", "product", "item", "price", "cost", "under", "below", "stock", "store", "sell", "carry", "about", "tell", "free"]);
+    const terms = new Set<string>();
+    for (const word of lower.split(/[^a-z0-9]+/)) {
+      const base = stem(word);
+      if (base.length > 2 && !stopWords.has(base)) terms.add(base);
+      for (const alias of synonyms[word] || synonyms[base] || []) terms.add(stem(alias));
+    }
+    const searchTerms = [...terms];
+    const scoreText = (text: string) => searchTerms.reduce((score, term) => score + (text.includes(term) ? 1 : 0), 0);
+    const matchedProducts = usableProducts
+      .map(product => ({ product, score: scoreText(product.name.toLowerCase()) }))
+      .filter(({ product, score }) => score > 0 && (!max || product.price_cad <= Number(max)) && (!lower.includes("stock") || product.in_stock))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5)
+      .map(({ product }) => product);
+    const matchedCategories = categoriesData.filter(category => scoreText(category.name.toLowerCase()) > 0).slice(0, 2);
+    const matchedFacts = knowledgeData.facts.filter(fact => searchTerms.some(term => term.length > 4 && `${fact.topic} ${fact.answer}`.toLowerCase().includes(term))).slice(0, 3);
+    const lines = [
+      ...matchedProducts.map(product => `${product.name} is ${money.format(product.price_cad)} for ${product.unit || "the listed unit"}${product.in_stock ? "" : " (currently out of stock)"}.`),
+      ...matchedCategories.map(category => `AFC also has a whole ${category.name} aisle${category.children.length ? ` with ${category.children.length} sections` : ""} — open Shop and search “${category.name}” to browse it.`),
+      ...matchedFacts.map(fact => fact.answer),
+    ];
     return {
-      answer: lines.join("\n\n") || "I couldn’t find an exact answer in the current AFC snapshot. Try asking about a product, returns, delivery, pickup, or a store location.",
+      answer: lines.join("\n\n") || "I couldn’t find that in this demo snapshot — it covers 100 sample products plus AFC’s public policies. Try a product or aisle name like “pickle”, “tea”, “atta” or “rice”, or ask about delivery, returns, pickup, and store locations.",
       confidence: lines.length ? "medium" : "low",
       product_cards: matchedProducts,
       sources: [
         ...matchedProducts.map(product => ({ id: `product:${product.id}`, source_type: "product", title: product.name, snippet: `${product.unit} · ${money.format(product.price_cad)}`, url: product.product_url })),
+        ...matchedCategories.map(category => ({ id: `category:${category.id}`, source_type: "category", title: category.name, snippet: category.children.length ? `${category.children.length} sections` : "Department", url: `/shop?q=${encodeURIComponent(category.name)}` })),
         ...matchedFacts.map(fact => ({ id: `faq:${fact.topic}`, source_type: "faq", title: fact.topic.replaceAll("_", " "), snippet: fact.answer, url: fact.source_urls[0] })),
       ],
     };

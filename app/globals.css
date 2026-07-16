@@ -699,6 +699,10 @@ footer.site-footer::before { content: "afc"; position: absolute; right: -20px; t
   .chat-launch { display: none; }
   .cart-toast { bottom: calc(84px + env(safe-area-inset-bottom)); }
   .chat-panel { right: 8px; left: 8px; bottom: 8px; width: auto; height: calc(100dvh - 16px); }
+  /* iOS Safari auto-zooms focused inputs below 16px */
+  .header-search input, .chat-form input, .form-grid input, .admin-login input,
+  .faq-editor input, .faq-editor textarea, .faq-editor select,
+  .admin-toolbar input, .admin-toolbar select, .sort-select { font-size: 16px; }
   .cart-drawer { top: 8px; right: 8px; bottom: 8px; }
   .steps { flex-wrap: wrap; }
 }
